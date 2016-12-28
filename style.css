@@ -1,6 +1,7 @@
 /*
 
  CUSTOM VALUES ARE ADDED TO THE BOTTOM.
+ DONT EDIT ANYTHING ON UPPER SIDE.
 
 Theme Name: Twenty Seventeen
 Theme URI: https://wordpress.org/themes/twentyseventeen/
@@ -4256,7 +4257,7 @@ object {
 	font-size: 1.625rem;
 	border-left: 5px solid black;
 	padding-left: 20px;
-	background-color: #f76d43 !important;
+	background-color: #f76d43!important;
 }
 
 /*@media screen and (min-width: 48em)*/
@@ -4271,4 +4272,11 @@ object {
 
 .custom-logo-link img, body.home.title-tagline-hidden.has-header-image .custom-logo-link img, body.home.title-tagline-hidden.has-header-video .custom-logo-link img {
 	max-width: 100%;
+}
+
+.blog:not(.has-sidebar) #primary article, .archive:not(.page-one-column):not(.has-sidebar) #primary article, .search:not(.has-sidebar) #primary article, .error404:not(.has-sidebar) #primary .page-content, .error404.has-sidebar #primary .page-content, body.page-two-column:not(.archive) #primary .entry-content, body.page-two-column #comments
+{
+    float:none!important;
+    width: 95%;
+    max-width: 1100px;
 }
