@@ -4281,3 +4281,34 @@ object {
     width: 95%;
     max-width: 1100px;
 }
+
+
+/* Camtix Customization starts from here*/
+.entry-content a{
+box-shadow:none;
+-webkit-box-shadow:none;
+}
+
+#tix-attendees .tix-field{
+font-weight:600;
+}
+
+a.tix-field.tix-attendee-twitter
+{
+background-image: url(http://2017.mumbai.wordcamp.org/files/2017/01/twitter.png);
+    background-color: #d54e27;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    display: inline-block;
+    background-position: center;
+    width: 20px !important;
+    height: 20px;
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    float: left;
+    border-radius: 50px;
+    transition: background-color .5s;
+    padding: 10px;
+	
+}
