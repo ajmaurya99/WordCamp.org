@@ -4331,4 +4331,8 @@ background-image: url(http://2017.mumbai.wordcamp.org/files/2017/01/url.png);
 
 }
 
+#tix-attendees .avatar{
+	border-radius: 50%;
+}
+
 
