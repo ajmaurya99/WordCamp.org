@@ -4312,3 +4312,23 @@ background-image: url(http://2017.mumbai.wordcamp.org/files/2017/01/twitter.png)
     padding: 10px;
 	
 }
+.tix-attendee-url{
+background-image: url(http://2017.mumbai.wordcamp.org/files/2017/01/url.png);
+    background-repeat: no-repeat;
+    background-size: 19px 19px;
+    display: inline-block;
+    width: 20px !important;
+    background-position: center;
+    height: 20px;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 163px !important;
+    background-color: #d6542f;
+    color: #d6542f !important;
+    border-radius: 50px;
+    padding: 10px;	
+
+}
+
+
