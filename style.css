@@ -4304,3 +4304,14 @@ box-shadow:none;
 	box-shadow:none !important;
 }
 
+@media only screen and (max-width: 540px) {
+	#tix-attendees .tix-columns-4 li {
+		width: 49%;
+		margin-right: 2%;
+	}
+	
+	#tix-attendees ul.tix-columns-4 li:nth-child(2n+2) {
+		margin-right: 0;
+	}
+}
+
