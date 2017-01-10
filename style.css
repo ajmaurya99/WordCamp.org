@@ -4309,7 +4309,7 @@ background-image: url(http://2017.mumbai.wordcamp.org/files/2017/01/twitter.png)
     float: left;
     border-radius: 50px;
     transition: background-color .5s;
-    padding: 10px;
+    padding: 15px;
 	
 }
 .tix-attendee-url{
@@ -4327,7 +4327,7 @@ background-image: url(http://2017.mumbai.wordcamp.org/files/2017/01/url.png);
     background-color: #d6542f;
     color: #d6542f !important;
     border-radius: 50px;
-    padding: 10px;	
+    padding: 15px;	
 
 }
 
