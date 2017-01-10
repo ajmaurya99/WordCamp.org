@@ -4305,7 +4305,7 @@ box-shadow:none;
 }
 
 @media only screen and (max-width: 540px) {
-	#tix-attendees .tix-columns-4 li {
+	#tix-attendees .tix-columns-3 li {
 		width: 49%;
 		margin-right: 2%;
 	}
