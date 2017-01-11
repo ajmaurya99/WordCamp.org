@@ -4291,10 +4291,6 @@ box-shadow:none;
 
 #tix-attendees .avatar{
 	border-radius: 50%;
-	min-width: 75%;
-	height: auto;
-	margin: 0 auto 1rem;
-	display: block;
 }
 #tix-attendees .tix-field {
 	display: block;
@@ -4326,9 +4322,9 @@ box-shadow:none;
 	position: absolute;
 	top: 0;
 	right: 0;
-	height: 36px;
-	width: 36px;
-	font-size: 24px;
+	height: 24px;
+	width: 24px;
+	font-size: 18px;
 	line-height: 1;
 	font-family: dashicons;
 	text-decoration: inherit;
@@ -4336,7 +4332,7 @@ box-shadow:none;
 	text-indent: 0;
 	font-style: normal;
 	vertical-align: top;
-	text-align: center;
+	text-align: left;
 	-webkit-transition: color .1s ease-in 0;
 	transition: color .1s ease-in 0;
 	-webkit-font-smoothing: antialiased;
