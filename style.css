@@ -4289,25 +4289,69 @@ box-shadow:none;
 -webkit-box-shadow:none;
 }
 
-#tix-attendees .avatar{
-	border-radius: 50%;
+#tix-attendees .tix-columns-4 li {
+	width: 23%;
+	margin-right: 2%;
 }
+
+#tix-attendees ul.tix-columns-4 li:nth-child(4n+4) {
+	margin-right: 0;
+}
+
+#tix-attendees li {
+	display: inline-block;
+	margin: 0 0 2rem;
+	min-height: 330px;
+	padding: 1rem .5rem;
+	text-align: center;
+	background: #f0f0f0;
+	border-radius: 2rem;
+}
+
+#tix-attendees .avatar {
+	float: none;
+	min-width: 75%;
+	height: auto;
+	margin: 0 auto 1rem;
+	display: block;
+	border: 10px solid #e5e5e5;
+}
+
 #tix-attendees .tix-field {
 	display: block;
 	margin-left: 0;
 }
+
 #tix-attendees .tix-attendee-name {
 	margin-bottom: .5rem;
 	clear: none;
-	text-align: left;
+	text-align: center;
 	font-size: 1.4rem;
 	line-height: 1.4;
 }
+
 #tix-attendees .tix-attendee-name span.tix-last {
 	font-size: .7em;
 	display: block;
 	line-height: 1;
 }
+
+#tix-attendees .tix-primary-role-at-work {
+	text-align: center;
+}
+
+#tix-attendees .tix-i-will-attend-the-after-party {
+	text-align: center;
+	color: green;
+}
+
+#tix-attendees .tix-i-will-attend-the-after-party:before {
+	content: "Attending after-party? ";
+	font-style: italics;
+	font-size: .9em;
+	color: #000;
+}
+
 #tix-attendees .tix-attendee-twitter, #tix-attendees .tix-attendee-url {
 	display: inline-block;
 	width: 36px;
@@ -4322,9 +4366,9 @@ box-shadow:none;
 	position: absolute;
 	top: 0;
 	right: 0;
-	height: 24px;
-	width: 24px;
-	font-size: 18px;
+	height: 36px;
+	width: 36px;
+	font-size: 24px;
 	line-height: 1;
 	font-family: dashicons;
 	text-decoration: inherit;
@@ -4332,7 +4376,7 @@ box-shadow:none;
 	text-indent: 0;
 	font-style: normal;
 	vertical-align: top;
-	text-align: left;
+	text-align: center;
 	-webkit-transition: color .1s ease-in 0;
 	transition: color .1s ease-in 0;
 	-webkit-font-smoothing: antialiased;
@@ -4346,7 +4390,6 @@ box-shadow:none;
 #tix-attendees .tix-attendee-url:before {
 	content: "\f319";
 }
-/* Vachan */
 
 .entry-content a, .entry-summary a, .widget a, .site-footer .widget-area a, .posts-navigation a, .widget_authors a strong{
 -webkit-box-shadow:none !important;
