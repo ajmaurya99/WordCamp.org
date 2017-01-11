@@ -4417,6 +4417,10 @@ object {
 	margin-left: 15px;
 	content: url(http://2017.mumbai.wordcamp.org/files/2017/01/wcm-tix_after-stub.png);
 }
+
+.tix-link  {
+	padding: -2px -5px !important;
+}1
 /* X_camptix-att */
 
 .entry-content a, .entry-summary a, .widget a, .site-footer .widget-area a, .posts-navigation a, .widget_authors a strong{
