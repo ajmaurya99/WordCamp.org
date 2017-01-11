@@ -4398,6 +4398,10 @@ object {
 	color: #ffffff;
 }
 
+.btn-link:hover {
+	color: #ffffff;
+}
+
 .tix-link:before {
 	background-image: url("http://2017.mumbai.wordcamp.org/files/2017/01/wcm-tix_before-stub.png");
 	background-repeat: repeat-y;
