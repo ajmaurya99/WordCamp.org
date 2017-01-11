@@ -4289,11 +4289,18 @@ box-shadow:none;
 -webkit-box-shadow:none;
 }
 
-#tix-attendees .avatar{
+/*#tix-attendees .avatar{
 	border-radius: 50%;
-}
+}*/
 
 /* Vachan */
+#tix-attendees .avatar {
+	float: none;
+	min-width: 75%;
+	height: auto;
+	margin: 0 auto 1rem;
+	display: block;
+}
 #tix-attendees .tix-field {
 	display: block;
 	margin-left: 0;
@@ -4301,7 +4308,7 @@ box-shadow:none;
 #tix-attendees .tix-attendee-name {
 	margin-bottom: .5rem;
 	clear: none;
-	text-align: center;
+	text-align: left;
 	font-size: 1.4rem;
 	line-height: 1.4;
 }
