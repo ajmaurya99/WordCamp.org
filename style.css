@@ -4396,28 +4396,26 @@ object {
 	}
 }
 
-.btn-link {
+.btn-link, .tix-link  {
 	padding: 2px 5px;
 	background-color: #d54e21;
 	color: #ffffff;
 }
 
-.btn-link:hover {
+.btn-link::hover, .tix-link::hover {
 	color: #ffffff;
 }
 
 .tix-link::before {
 	width: 5px;
+	margin-right: 5px;
 	content: url(http://2017.mumbai.wordcamp.org/files/2017/01/wcm-tix_before-stub.png);
-	/*background-image: url(http://2017.mumbai.wordcamp.org/files/2017/01/wcm-tix_before-stub.png);*/
-	background-repeat: repeat-y;
 }
 
 .tix-link::after {
 	width: 15px;
+	margin-left: 15px;
 	content: url(http://2017.mumbai.wordcamp.org/files/2017/01/wcm-tix_after-stub.png);
-	/*background-image: url(http://2017.mumbai.wordcamp.org/files/2017/01/wcm-tix_after-stub.png);*/
-	background-repeat: repeat-y;
 }
 /* X_camptix-att */
 
