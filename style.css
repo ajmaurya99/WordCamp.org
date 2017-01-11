@@ -4369,6 +4369,28 @@ object {
 #tix-attendees .tix-attendee-url:before {
 	content: "\f319";
 }
+
+@media only screen and (min-width: 541px) and (max-width: 1020px) {
+	#tix-attendees .tix-columns-4 li, #tix-attendees ul.tix-columns-4 li:nth-child(2n+2), #tix-attendees ul.tix-columns-4 li:nth-child(4n+4) {
+		width: 31%;
+		margin-right: 2%;
+	}
+	
+	#tix-attendees ul.tix-columns-4 li:nth-child(3n+3) {
+		margin-right: 0;
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	#tix-attendees .tix-columns-4 li {
+		width: 49%;
+		margin-right: 2%;
+	}
+	
+	#tix-attendees ul.tix-columns-4 li:nth-child(2n+2) {
+		margin-right: 0;
+	}
+}
 /* X_camptix-att */
 
 .entry-content a, .entry-summary a, .widget a, .site-footer .widget-area a, .posts-navigation a, .widget_authors a strong{
@@ -4378,17 +4400,6 @@ object {
 .entry-content {
 -webkit-box-shadow:none !important;
 	box-shadow:none !important;
-}
-
-@media only screen and (max-width: 540px) {
-	#tix-attendees .tix-columns-3 li {
-		width: 49%;
-		margin-right: 2%;
-	}
-	
-	#tix-attendees ul.tix-columns-4 li:nth-child(2n+2) {
-		margin-right: 0;
-	}
 }
 .page.page-one-column:not(.twentyseventeen-front-page) #primary{
 margin-left: auto;
