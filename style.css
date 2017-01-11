@@ -4403,9 +4403,15 @@ object {
 }
 
 .tix-link:before {
+    width: 5px;
+    content: " ";
 	background-image: url("http://2017.mumbai.wordcamp.org/files/2017/01/wcm-tix_before-stub.png");
 	background-repeat: repeat-y;
 	max-width: 5px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height:20px;
 }
 
 .tix-link:after{
