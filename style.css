@@ -4406,23 +4406,16 @@ object {
 	color: #ffffff;
 }
 
-.tix-link::before, .tix-link::after {
-	width: 5px;
-	content: " ";
-	position: absolute;
-	height:20px;
-}
-
 .tix-link::before {
 	width: 5px;
-	content: url(http://2017.mumbai.wordcamp.org/files/2017/01/wcm-tix_before-stub.png);
+	/*content: url(http://2017.mumbai.wordcamp.org/files/2017/01/wcm-tix_before-stub.png);*/
 	background-image: url(http://2017.mumbai.wordcamp.org/files/2017/01/wcm-tix_before-stub.png);
 	background-repeat: repeat-y;
 }
 
 .tix-link::after {
 	width: 15px;
-	content: url(http://2017.mumbai.wordcamp.org/files/2017/01/wcm-tix_after-stub.png);
+	/*content: url(http://2017.mumbai.wordcamp.org/files/2017/01/wcm-tix_after-stub.png);*/
 	background-image: url(http://2017.mumbai.wordcamp.org/files/2017/01/wcm-tix_after-stub.png);
 	background-repeat: repeat-y;
 }
