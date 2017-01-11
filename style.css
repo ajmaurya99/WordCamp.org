@@ -4336,22 +4336,6 @@ box-shadow:none;
 	line-height: 1;
 }
 
-#tix-attendees .tix-primary-role-at-work {
-	text-align: center;
-}
-
-#tix-attendees .tix-i-will-attend-the-after-party {
-	text-align: center;
-	color: green;
-}
-
-#tix-attendees .tix-i-will-attend-the-after-party:before {
-	content: "Attending after-party? ";
-	font-style: italics;
-	font-size: .9em;
-	color: #000;
-}
-
 #tix-attendees .tix-attendee-twitter, #tix-attendees .tix-attendee-url {
 	display: inline-block;
 	width: 36px;
