@@ -4300,7 +4300,7 @@ object {
 	padding: 1rem .5rem;
 	text-align: center;
 	background: #f0f0f0;
-	border-radius: 2rem;
+	border-radius: 0.2rem;
 }
 
 #tix-attendees .avatar {
@@ -4390,6 +4390,23 @@ object {
 	#tix-attendees ul.tix-columns-4 li:nth-child(2n+2) {
 		margin-right: 0;
 	}
+}
+
+.btn-link {
+	padding: 2px 5px;
+	background-color: #d54e21;
+}
+
+.tix-link:before {
+	background-image: url("http://2017.mumbai.wordcamp.org/files/2017/01/wcm-tix_before-stub.png");
+	background-repeat: repeat-y;
+	max-width: 5px;
+}
+
+.tix-link:after{
+	background-image: url("http://2017.mumbai.wordcamp.org/files/2017/01/wcm-tix_after-stub.png");
+	background-repeat: repeat-y;
+	max-width: 15px;
 }
 /* X_camptix-att */
 
