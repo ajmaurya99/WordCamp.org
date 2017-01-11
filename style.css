@@ -4289,12 +4289,67 @@ box-shadow:none;
 -webkit-box-shadow:none;
 }
 
-
-
-
 #tix-attendees .avatar{
 	border-radius: 50%;
 }
+
+/* Vachan */
+#tix-attendees .tix-field {
+	display: block;
+	margin-left: 0;
+}
+#tix-attendees .tix-attendee-name {
+	margin-bottom: .5rem;
+	clear: none;
+	text-align: center;
+	font-size: 1.4rem;
+	line-height: 1.4;
+}
+#tix-attendees .tix-attendee-name span.tix-last {
+	font-size: .7em;
+	display: block;
+	line-height: 1;
+}
+#tix-attendees .tix-attendee-twitter, #tix-attendees .tix-attendee-url {
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	text-indent: -99999px;
+	box-shadow: none;
+	position: relative;
+	margin: .5rem .2rem;
+}
+
+#tix-attendees .tix-attendee-twitter:before, #tix-attendees .tix-attendee-url:before {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 36px;
+	width: 36px;
+	font-size: 24px;
+	line-height: 1;
+	font-family: dashicons;
+	text-decoration: inherit;
+	font-weight: 400;
+	text-indent: 0;
+	font-style: normal;
+	vertical-align: top;
+	text-align: center;
+	-webkit-transition: color .1s ease-in 0;
+	transition: color .1s ease-in 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#tix-attendees .tix-attendee-twitter:before {
+	content: "\f301";
+}
+
+#tix-attendees .tix-attendee-url:before {
+	content: "\f319";
+}
+/* Vachan */
+
 .entry-content a, .entry-summary a, .widget a, .site-footer .widget-area a, .posts-navigation a, .widget_authors a strong{
 -webkit-box-shadow:none !important;
 	box-shadow:none !important;
