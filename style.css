@@ -4395,6 +4395,7 @@ object {
 .btn-link {
 	padding: 2px 5px;
 	background-color: #d54e21;
+	color: #ffffff;
 }
 
 .tix-link:before {
