@@ -4283,7 +4283,7 @@ object {
 }
 
 
-/* Camptix Customization starts from here*/
+/* Camptix - Attendee */
 #tix-attendees .tix-columns-4 li {
 	width: 23%;
 	margin-right: 2%;
@@ -4293,9 +4293,23 @@ object {
 	margin-right: 0;
 }
 
+#tix-attendees li {
+	display: inline-block;
+	margin: 0 0 2rem;
+	min-height: 330px;
+	padding: 1rem .5rem;
+	text-align: center;
+	background: #f0f0f0;
+	border-radius: 2rem;
+}
+
 #tix-attendees .avatar {
-	border-radius: 50% !important;
-	display: none !important;;
+	float: none;
+	min-width: 75%;
+	height: auto;
+	margin: 0 auto 1rem;
+	display: block;
+	border: 10px solid #e5e5e5;
 }
 
 #tix-attendees .tix-field {
@@ -4355,6 +4369,7 @@ object {
 #tix-attendees .tix-attendee-url:before {
 	content: "\f319";
 }
+/* X_camptix-att */
 
 .entry-content a, .entry-summary a, .widget a, .site-footer .widget-area a, .posts-navigation a, .widget_authors a strong{
 -webkit-box-shadow:none !important;
