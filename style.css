@@ -4375,6 +4375,10 @@ box-shadow:none;
 	content: "\f319";
 }
 
+#tix-attendees .avatar{
+	border-radius: 50% !important;
+}
+
 .entry-content a, .entry-summary a, .widget a, .site-footer .widget-area a, .posts-navigation a, .widget_authors a strong{
 -webkit-box-shadow:none !important;
 	box-shadow:none !important;
