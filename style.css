@@ -4289,13 +4289,8 @@ box-shadow:none;
 -webkit-box-shadow:none;
 }
 
-/*#tix-attendees .avatar{
+#tix-attendees .avatar{
 	border-radius: 50%;
-}*/
-
-/* Vachan */
-#tix-attendees .avatar {
-	float: none;
 	min-width: 75%;
 	height: auto;
 	margin: 0 auto 1rem;
