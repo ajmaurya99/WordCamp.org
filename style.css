@@ -4284,11 +4284,6 @@ object {
 
 
 /* Camptix Customization starts from here*/
-.entry-content a{
-box-shadow:none;
--webkit-box-shadow:none;
-}
-
 #tix-attendees .tix-columns-4 li {
 	width: 23%;
 	margin-right: 2%;
