@@ -4453,3 +4453,12 @@ margin-left: auto;
     padding: 5px;
 	  }
 }
+
+.widget ul li{
+    border-bottom: none;
+    border-top: none;
+}
+
+.genericon {
+    font-size: 35px;
+}
