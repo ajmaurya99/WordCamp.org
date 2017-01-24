@@ -4263,12 +4263,12 @@ object {
 
 /*@media screen and (min-width: 48em)*/
 .wrap {
-	max-width: 1400px;
+	max-width: 80%;
 }
 
 #masthead .wrap {
 	position: relative;
-	max-width: 1400px;
+	max-width: 80%;
 }
 
 .custom-logo-link img, body.home.title-tagline-hidden.has-header-image .custom-logo-link img, body.home.title-tagline-hidden.has-header-video .custom-logo-link img {
@@ -4460,5 +4460,5 @@ margin-left: auto;
 }
 
 .genericon {
-    font-size: 35px;
+    font-size: 35px !important;
 }
