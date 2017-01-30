@@ -4488,6 +4488,7 @@ Ticket for Mobile
 	
 	table.tix_tickets_table > tbody > tr > td.tix-column-price {
 		border-right: 1px dotted #d54e21;
+		line-height: 60px;
 	}
 	
 	table.tix_tickets_table > thead,
