@@ -1,1 +1,1 @@
-# WordCampMum-Theme-CSS
+# WordCamp Mumbai Theme CSS
