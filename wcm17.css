@@ -297,3 +297,12 @@ display: none !important;
     width: 30%;
     padding-left: 30px;
 }
+
+#masthead .wrap {
+    position: relative;
+    max-width: 100%;
+}
+
+.wrap {
+    max-width: 100%;
+}
