@@ -16,7 +16,7 @@
 
 #masthead .wrap {
 	position: relative;
-	max-width: 80%;
+	max-width: 100%;
 }
 
 .custom-logo-link img, body.home.title-tagline-hidden.has-header-image .custom-logo-link img, body.home.title-tagline-hidden.has-header-video .custom-logo-link img {
