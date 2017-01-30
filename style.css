@@ -4493,6 +4493,10 @@ Ticket for Mobile
 		border-right: 1px dotted #d54e21;
 	}
 	
+	table.tix-order-summary > tbody > tr > td.tix-column-price {
+		border-right: none;
+	}
+	
 	table.tix_tickets_table > thead,
 	table.tix_tickets_table > tbody > tr > td.tix-column-remaining {
 		display: none !important; 
@@ -4515,12 +4519,10 @@ Ticket for Mobile
 	}
 	
 	table.tix-order-summary > tbody > tr.tix-row-total {
+		width: 100%
 		background: #d54e21;
 		color: #ffffff;
-		text-align: right;
 		font-weight: 800;
-	}
-	table.tix-order-summary > td.tix-column-price {
-		border-right: none;
+		text-align: right !important;
 	}
 }
