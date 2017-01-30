@@ -4462,3 +4462,22 @@ margin-left: auto;
 .genericon {
     font-size: 35px !important;
 }
+
+
+/*---------------------------------
+Ticket for Mobile
+----------------------------------*/
+@media only screen and (max-device-width: 380px){
+	.tix_tickets_table .tix-column-description {
+		width: 100% !important;
+	}
+	
+	.tix_tickets_table .tix-column-price, 
+	.tix_tickets_table .tix-column-quantity {
+		width: 50% !important;
+	}
+	
+	.tix_tickets_table .tix-column-remaining {
+		display: none !important; 
+	}
+}
