@@ -4470,7 +4470,7 @@ Ticket for Mobile
 @media only screen and (max-device-width: 380px){
 	table.tix_tickets_table > tbody > tr > td {
 		position: relative;
-		float: left;
+		float: right;
 	}
 	
 	table.tix_tickets_table > tbody > tr > td.tix-column-description {
@@ -4480,6 +4480,11 @@ Ticket for Mobile
 	table.tix_tickets_table > tbody > tr > td.tix-column-price, 
 	table.tix_tickets_table > tbody > tr > td.tix-column-quantity {
 		width: 50% !important;
+		background: #efefef;
+	}
+	
+	table.tix_tickets_table > tbody > tr > td.tix-column-price {
+		border-left: 2px dotted #d54e21;
 	}
 	
 	table.tix_tickets_table > thead,
