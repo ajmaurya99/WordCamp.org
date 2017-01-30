@@ -4508,4 +4508,13 @@ Ticket for Mobile
 		border-bottom: 1px dotted #000000;
 		color: #d54e21;
 	}
+	
+	table.tix-order-summary > tbody > tr > td.tix-column-per-ticket,
+	table.tix-order-summary > tbody > tr > td.tix-column-price, 
+	table.tix-order-summary > tbody > tr > td.tix-column-quantity {
+		width: 40%
+	} 
+	table.tix-order-summary > tbody > tr > td.tix-column-quantity {
+		width: 20%
+	}
 }
