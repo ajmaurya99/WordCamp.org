@@ -4499,4 +4499,10 @@ Ticket for Mobile
 		border-bottom: 1px dotted #d54e21;
 		padding-top: 5px;
 	}
+	
+	.tix-coupon-link {
+		text-decoration: none;
+		border-bottom: 1px dotted #000000;
+		color: #d54e21;
+	}
 }
