@@ -4519,10 +4519,13 @@ Ticket for Mobile
 	}
 	
 	table.tix-order-summary > tbody > tr.tix-row-total {
-		width: 100%
+		width: 100%;
 		background: #d54e21;
 		color: #ffffff;
 		font-weight: 800;
+	}
+	table.tix-order-summary > tbody > tr.tix-row-total > td {
+		width: 25% !important;
 		text-align: right !important;
 	}
 }
