@@ -11,7 +11,7 @@
 
 /*@media screen and (min-width: 48em)*/
 .wrap {
-	max-width: 80%;
+	max-width: 100%;
 }
 
 #masthead .wrap {
@@ -280,4 +280,20 @@ Ticket for Mobile
 /*CSS for WooCommerce*/
 #post-6 > div > div > table.shop_table.order_details > tbody > tr > td.product-name > dl {
 display: none !important;
+}
+
+
+
+@media screen and (min-width: 48em)
+.has-sidebar:not(.error404) #primary {
+    float: left;
+    width: 70%;
+}
+
+@media screen and (min-width: 48em)
+.has-sidebar #secondary {
+    float: right;
+    padding-top: 0;
+    width: 30%;
+    padding-left: 30px;
 }
