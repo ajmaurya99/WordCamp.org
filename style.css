@@ -4477,6 +4477,7 @@ Ticket for Mobile
 		width: 100% !important;
 	}
 	
+	table.tix_tickets_table > tbody > tr > td.tix-column-per-ticket,
 	table.tix_tickets_table > tbody > tr > td.tix-column-price, 
 	table.tix_tickets_table > tbody > tr > td.tix-column-quantity {
 		width: 50% !important;
@@ -4486,6 +4487,7 @@ Ticket for Mobile
 		vertical-align: middle;
 	}
 	
+	table.tix_tickets_table > tbody > tr > td.tix-column-per-ticket,
 	table.tix_tickets_table > tbody > tr > td.tix-column-price {
 		border-right: 1px dotted #d54e21;
 		line-height: 45px;
