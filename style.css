@@ -4485,12 +4485,12 @@ Ticket for Mobile
 		min-height: 60px;
 		text-align: center;
 		vertical-align: middle;
+		line-height: 45px;
 	}
 	
-	table.tix_tickets_table > tbody > tr > td.tix-column-per-ticket,
+	table.tix-order-summary > tbody > tr > td.tix-column-per-ticket,
 	table.tix_tickets_table > tbody > tr > td.tix-column-price {
 		border-right: 1px dotted #d54e21;
-		line-height: 45px;
 	}
 	
 	table.tix_tickets_table > thead,
@@ -4517,5 +4517,10 @@ Ticket for Mobile
 	table.tix-order-summary > tbody > tr.tix-row-total {
 		background: #d54e21;
 		color: #ffffff;
+		text-align: right;
+		font-weight: 800;
+	}
+	table.tix-order-summary > td.tix-column-price {
+		border-right: none;
 	}
 }
