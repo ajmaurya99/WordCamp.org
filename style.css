@@ -4467,17 +4467,18 @@ margin-left: auto;
 /*---------------------------------
 Ticket for Mobile
 ----------------------------------*/
-@media only screen and (max-device-width: 380px){
-	.tix_tickets_table .tix-column-description {
+/*@media only screen and (max-device-width: 380px){*/
+	table.tix_tickets_table > tbody > tr > td.tix-column-description {
 		width: 100% !important;
 	}
 	
-	.tix_tickets_table .tix-column-price, 
-	.tix_tickets_table .tix-column-quantity {
+	table.tix_tickets_table > tbody > tr > td.tix-column-price, 
+	table.tix_tickets_table > tbody > tr > td.tix-column-quantity {
 		width: 50% !important;
 	}
 	
-	.tix_tickets_table .tix-column-remaining {
+	table.tix_tickets_table > thead,
+	table.tix_tickets_table > tbody > tr > td.tix-column-remaining {
 		display: none !important; 
 	}
-}
+/*}*/
