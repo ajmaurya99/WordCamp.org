@@ -4489,6 +4489,10 @@ Ticket for Mobile
 		border-right: 1px dotted #d54e21;
 	}
 	
+	table.tix_tickets_table > tbody > tr > td.tix-column-quantity {
+		text-align: right;
+	}
+	
 	table.tix_tickets_table > thead,
 	table.tix_tickets_table > tbody > tr > td.tix-column-remaining {
 		display: none !important; 
