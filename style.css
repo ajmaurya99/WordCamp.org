@@ -4482,15 +4482,12 @@ Ticket for Mobile
 		width: 50% !important;
 		background: #efefef;
 		min-height: 60px;
+		text-align: center;
 		vertical-align: middle;
 	}
 	
 	table.tix_tickets_table > tbody > tr > td.tix-column-price {
 		border-right: 1px dotted #d54e21;
-	}
-	
-	table.tix_tickets_table > tbody > tr > td.tix-column-quantity {
-		text-align: right;
 	}
 	
 	table.tix_tickets_table > thead,
