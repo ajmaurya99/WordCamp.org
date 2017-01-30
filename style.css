@@ -4498,23 +4498,24 @@ Ticket for Mobile
 		display: none !important; 
 	}
 	
-	table.tix_tickets_table > tbody > tr {
-		border-bottom: 1px dotted #d54e21;
-		padding-top: 5px;
-	}
-	
 	#tix-coupon-link {
 		text-decoration: none;
 		border-bottom: 1px dotted #000000;
 		color: #d54e21;
 	}
 	
-	table.tix-order-summary > tbody > tr > td.tix-column-per-ticket,
-	table.tix-order-summary > tbody > tr > td.tix-column-price, 
-	table.tix-order-summary > tbody > tr > td.tix-column-quantity {
-		width: 40%
+	table.tix-order-summary > tbody > tr > td.tix-column-per-ticket {
+		width: 30% !important;
 	} 
 	table.tix-order-summary > tbody > tr > td.tix-column-quantity {
-		width: 20%
+		width: 20% !important;
+	}
+	table.tix-order-summary > tbody > tr > td.tix-column-price {
+		width: 50% !important;
+	}
+	
+	table.tix-order-summary > tbody > tr.tix-row-total {
+		background: #d54e21;
+		color: #ffffff;
 	}
 }
