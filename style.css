@@ -4467,7 +4467,12 @@ margin-left: auto;
 /*---------------------------------
 Ticket for Mobile
 ----------------------------------*/
-/*@media only screen and (max-device-width: 380px){*/
+@media only screen and (max-device-width: 380px){
+	table.tix_tickets_table > tbody > tr > td {
+		position: relative;
+		float: left;
+	}
+	
 	table.tix_tickets_table > tbody > tr > td.tix-column-description {
 		width: 100% !important;
 	}
@@ -4481,4 +4486,4 @@ Ticket for Mobile
 	table.tix_tickets_table > tbody > tr > td.tix-column-remaining {
 		display: none !important; 
 	}
-/*}*/
+}
