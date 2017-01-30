@@ -4494,4 +4494,9 @@ Ticket for Mobile
 	table.tix_tickets_table > tbody > tr > td.tix-column-remaining {
 		display: none !important; 
 	}
+	
+	table.tix_tickets_table > tbody > tr {
+		border-bottom: 1px dotted #d54e21;
+		padding-top: 5px;
+	}
 }
