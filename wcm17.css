@@ -1,6 +1,7 @@
 /*@media screen and (min-width: 48em)*/
 
-.entry-title, .page .entry-title {
+.entry-title,
+.page .entry-title {
     padding-left: 20px;
 
     border-left: 5px solid black;
@@ -11,7 +12,6 @@
     font-size: 1.625rem;
     font-weight: 400;
 }
-
 
 /*@media screen and (min-width: 48em)*/
 
@@ -25,17 +25,24 @@
     max-width: 100%;
 }
 
-.custom-logo-link img, body.home.title-tagline-hidden.has-header-image .custom-logo-link img, body.home.title-tagline-hidden.has-header-video .custom-logo-link img {
+.custom-logo-link img,
+body.home.title-tagline-hidden.has-header-image .custom-logo-link img,
+body.home.title-tagline-hidden.has-header-video .custom-logo-link img {
     max-width: 100%;
 }
 
-.blog:not(.has-sidebar) #primary article, .archive:not(.page-one-column):not(.has-sidebar) #primary article, .search:not(.has-sidebar) #primary article, .error404:not(.has-sidebar) #primary .page-content, .error404.has-sidebar #primary .page-content, body.page-two-column:not(.archive) #primary .entry-content, body.page-two-column #comments {
+.blog:not(.has-sidebar) #primary article,
+.archive:not(.page-one-column):not(.has-sidebar) #primary article,
+.search:not(.has-sidebar) #primary article,
+.error404:not(.has-sidebar) #primary .page-content,
+.error404.has-sidebar #primary .page-content,
+body.page-two-column:not(.archive) #primary .entry-content,
+body.page-two-column #comments {
     float: none!important;
 
     width: 95%;
     max-width: 1100px;
 }
-
 
 /* Camptix - Attendee */
 
@@ -100,7 +107,8 @@
     line-height: 1;
 }
 
-#tix-attendees .tix-attendee-twitter, #tix-attendees .tix-attendee-url {
+#tix-attendees .tix-attendee-twitter,
+#tix-attendees .tix-attendee-url {
     position: relative;
 
     display: inline-block;
@@ -115,7 +123,8 @@
     box-shadow: none;
 }
 
-#tix-attendees .tix-attendee-twitter:before, #tix-attendees .tix-attendee-url:before {
+#tix-attendees .tix-attendee-twitter:before,
+#tix-attendees .tix-attendee-url:before {
     position: absolute;
     top: 0;
     right: 0;
@@ -149,10 +158,13 @@
 }
 
 @media only screen and (min-width: 541px) and (max-width: 1020px) {
-    #tix-attendees .tix-columns-4 li, #tix-attendees ul.tix-columns-4 li:nth-child(2n+2), #tix-attendees ul.tix-columns-4 li:nth-child(4n+4) {
+    #tix-attendees .tix-columns-4 li,
+		#tix-attendees ul.tix-columns-4 li:nth-child(2n+2),
+		#tix-attendees ul.tix-columns-4 li:nth-child(4n+4) {
         width: 31%;
         margin-right: 2%;
     }
+
     #tix-attendees ul.tix-columns-4 li:nth-child(3n+3) {
         margin-right: 0;
     }
@@ -163,6 +175,7 @@
         width: 49%;
         margin-right: 2%;
     }
+
     #tix-attendees ul.tix-columns-4 li:nth-child(2n+2) {
         margin-right: 0;
     }
@@ -200,7 +213,12 @@
 1
 /* X_camptix-att */
 
-.entry-content a, .entry-summary a, .widget a, .site-footer .widget-area a, .posts-navigation a, .widget_authors a strong {
+.entry-content a,
+.entry-summary a,
+.widget a,
+.site-footer .widget-area a,
+.posts-navigation a,
+.widget_authors a strong {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
@@ -251,10 +269,14 @@ Ticket for Mobile
 
         float: left;
     }
+
     table.tix_tickets_table>tbody>tr>td.tix-column-description {
         width: 100% !important;
     }
-    table.tix_tickets_table>tbody>tr>td.tix-column-per-ticket, table.tix_tickets_table>tbody>tr>td.tix-column-price, table.tix_tickets_table>tbody>tr>td.tix-column-quantity {
+
+    table.tix_tickets_table>tbody>tr>td.tix-column-per-ticket,
+		table.tix_tickets_table>tbody>tr>td.tix-column-price,
+		table.tix_tickets_table>tbody>tr>td.tix-column-quantity {
         width: 50% !important;
         min-height: 60px;
 
@@ -265,30 +287,39 @@ Ticket for Mobile
 
         line-height: 45px;
     }
-    table.tix-order-summary>tbody>tr>td.tix-column-per-ticket, table.tix_tickets_table>tbody>tr>td.tix-column-price {
+
+    table.tix-order-summary>tbody>tr>td.tix-column-per-ticket,
+		table.tix_tickets_table>tbody>tr>td.tix-column-price {
         border-right: 1px dotted #d54e21;
     }
+
     table.tix-order-summary>tbody>tr>td.tix-column-price {
         border-right: none;
     }
+
     table.tix_tickets_table>thead, table.tix_tickets_table>tbody>tr>td.tix-column-remaining {
         display: none !important;
     }
+
     #tix-coupon-link {
         text-decoration: none;
 
         color: #d54e21;
         border-bottom: 1px dotted #000000;
     }
+
     table.tix-order-summary>tbody>tr>td.tix-column-per-ticket {
         width: 30% !important;
     }
+
     table.tix-order-summary>tbody>tr>td.tix-column-quantity {
         width: 20% !important;
     }
+
     table.tix-order-summary>tbody>tr>td.tix-column-price {
         width: 50% !important;
     }
+
     table.tix-order-summary>tbody>tr.tix-row-total {
         width: 100%;
 
@@ -297,13 +328,13 @@ Ticket for Mobile
 
         font-weight: 800;
     }
+
     table.tix-order-summary>tbody>tr.tix-row-total>td {
         width: 25% !important;
 
         text-align: right !important;
     }
 }
-
 
 /*CSS for WooCommerce*/
 
