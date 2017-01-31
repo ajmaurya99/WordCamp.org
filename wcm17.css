@@ -1,210 +1,239 @@
 /*@media screen and (min-width: 48em)*/
+
 .entry-title, .page .entry-title {
-	font-size: 26px;
-	font-weight: 400;
-	font-size: 1.625rem;
-	border-left: 5px solid black;
-	padding-left: 20px;
-	background: #fff;
-	background-color: #fff !important;
+    padding-left: 20px;
+
+    border-left: 5px solid black;
+    background: #fff;
+    background-color: #fff !important;
+
+    font-size: 26px;
+    font-size: 1.625rem;
+    font-weight: 400;
 }
 
+
 /*@media screen and (min-width: 48em)*/
+
 .wrap {
-	max-width: 100%;
+    max-width: 100%;
 }
 
 #masthead .wrap {
-	position: relative;
-	max-width: 100%;
+    position: relative;
+
+    max-width: 100%;
 }
 
 .custom-logo-link img, body.home.title-tagline-hidden.has-header-image .custom-logo-link img, body.home.title-tagline-hidden.has-header-video .custom-logo-link img {
-	max-width: 100%;
+    max-width: 100%;
 }
 
-.blog:not(.has-sidebar) #primary article, .archive:not(.page-one-column):not(.has-sidebar) #primary article, .search:not(.has-sidebar) #primary article, .error404:not(.has-sidebar) #primary .page-content, .error404.has-sidebar #primary .page-content, body.page-two-column:not(.archive) #primary .entry-content, body.page-two-column #comments
-{
-    float:none!important;
+.blog:not(.has-sidebar) #primary article, .archive:not(.page-one-column):not(.has-sidebar) #primary article, .search:not(.has-sidebar) #primary article, .error404:not(.has-sidebar) #primary .page-content, .error404.has-sidebar #primary .page-content, body.page-two-column:not(.archive) #primary .entry-content, body.page-two-column #comments {
+    float: none!important;
+
     width: 95%;
     max-width: 1100px;
 }
 
 
 /* Camptix - Attendee */
+
 #tix-attendees .tix-columns-4 li {
-	width: 23%;
-	margin-right: 2%;
+    width: 23%;
+    margin-right: 2%;
 }
 
 #tix-attendees ul.tix-columns-4 li:nth-child(4n+4) {
-	margin-right: 0;
+    margin-right: 0;
 }
 
 #tix-attendees li {
-	display: inline-block;
-	margin: 0 0 2rem;
-	min-height: 330px;
-	padding: 1rem .5rem;
-	text-align: center;
-	background: #f0f0f0;
-	border-radius: 0.5rem;
+    display: inline-block;
+
+    min-height: 330px;
+    margin: 0 0 2rem;
+    padding: 1rem .5rem;
+
+    text-align: center;
+
+    border-radius: 0.5rem;
+    background: #f0f0f0;
 }
 
 #tix-attendees .avatar {
-	float: none;
-	min-width: 75%;
-	height: auto;
-	margin: 0 auto 1rem;
-	display: block;
-	border: 10px solid #e5e5e5;
+    display: block;
+    float: none;
+
+    min-width: 75%;
+    height: auto;
+    margin: 0 auto 1rem;
+
+    border: 10px solid #e5e5e5;
 }
 
 #tix-attendees .tix-field {
-	display: block;
-	margin-left: 0;
+    display: block;
+
+    margin-left: 0;
 }
 
 #tix-attendees .tix-attendee-name {
-	margin-bottom: .5rem;
-	clear: none;
-	text-align: center;
-	font-size: 1.4rem;
-	line-height: 1.4;
+    clear: none;
+
+    margin-bottom: .5rem;
+
+    text-align: center;
+
+    font-size: 1.4rem;
+    line-height: 1.4;
 }
 
 #tix-attendees .tix-attendee-name span.tix-first {
-	font-weight: 700;
+    font-weight: 700;
 }
+
 #tix-attendees .tix-attendee-name span.tix-last {
-	font-size: .7em;
-	display: block;
-	line-height: 1;
+    display: block;
+
+    font-size: .7em;
+    line-height: 1;
 }
 
 #tix-attendees .tix-attendee-twitter, #tix-attendees .tix-attendee-url {
-	display: inline-block;
-	width: 36px;
-	height: 36px;
-	text-indent: -99999px;
-	box-shadow: none;
-	position: relative;
-	margin: .5rem .2rem;
-	color: #d54e21;
+    position: relative;
+
+    display: inline-block;
+
+    width: 36px;
+    height: 36px;
+    margin: .5rem .2rem;
+
+    text-indent: -99999px;
+
+    color: #d54e21;
+    box-shadow: none;
 }
 
 #tix-attendees .tix-attendee-twitter:before, #tix-attendees .tix-attendee-url:before {
-	position: absolute;
-	top: 0;
-	right: 0;
-	height: 36px;
-	width: 36px;
-	font-size: 24px;
-	line-height: 1;
-	font-family: dashicons;
-	text-decoration: inherit;
-	font-weight: 400;
-	text-indent: 0;
-	font-style: normal;
-	vertical-align: top;
-	text-align: center;
-	-webkit-transition: color .1s ease-in 0;
-	transition: color .1s ease-in 0;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 36px;
+    height: 36px;
+
+    -webkit-transition: color .1s ease-in 0;
+    transition: color .1s ease-in 0;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: inherit;
+    text-indent: 0;
+
+    font-family: dashicons;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 #tix-attendees .tix-attendee-twitter:before {
-	content: "\f301";
+    content: "\f301";
 }
 
 #tix-attendees .tix-attendee-url:before {
-	content: "\f319";
+    content: "\f319";
 }
 
 @media only screen and (min-width: 541px) and (max-width: 1020px) {
-	#tix-attendees .tix-columns-4 li, #tix-attendees ul.tix-columns-4 li:nth-child(2n+2), #tix-attendees ul.tix-columns-4 li:nth-child(4n+4) {
-		width: 31%;
-		margin-right: 2%;
-	}
-	
-	#tix-attendees ul.tix-columns-4 li:nth-child(3n+3) {
-		margin-right: 0;
-	}
+    #tix-attendees .tix-columns-4 li, #tix-attendees ul.tix-columns-4 li:nth-child(2n+2), #tix-attendees ul.tix-columns-4 li:nth-child(4n+4) {
+        width: 31%;
+        margin-right: 2%;
+    }
+    #tix-attendees ul.tix-columns-4 li:nth-child(3n+3) {
+        margin-right: 0;
+    }
 }
 
 @media only screen and (max-width: 540px) {
-	#tix-attendees .tix-columns-4 li {
-		width: 49%;
-		margin-right: 2%;
-	}
-	
-	#tix-attendees ul.tix-columns-4 li:nth-child(2n+2) {
-		margin-right: 0;
-	}
+    #tix-attendees .tix-columns-4 li {
+        width: 49%;
+        margin-right: 2%;
+    }
+    #tix-attendees ul.tix-columns-4 li:nth-child(2n+2) {
+        margin-right: 0;
+    }
 }
 
-.btn-link, .tix-link  {
-	padding: 2px 5px;
-	background-color: #d54e21;
-	color: #ffffff;
+.btn-link, .tix-link {
+    padding: 2px 5px;
+
+    color: #ffffff;
+    background-color: #d54e21;
 }
 
 .btn-link::hover, .tix-link::hover {
-	color: #ffffff;
+    color: #ffffff;
 }
 
 .tix-link::before {
-	width: 5px;
-	margin-right: 5px;
-	content: url(http://2017.mumbai.wordcamp.org/files/2017/01/wcm-tix_before-stub.png);
+    width: 5px;
+    margin-right: 5px;
+
+    content: url(http://2017.mumbai.wordcamp.org/files/2017/01/wcm-tix_before-stub.png);
 }
 
 .tix-link::after {
-	width: 15px;
-	margin-left: 15px;
-	content: url(http://2017.mumbai.wordcamp.org/files/2017/01/wcm-tix_after-stub.png);
+    width: 15px;
+    margin-left: 15px;
+
+    content: url(http://2017.mumbai.wordcamp.org/files/2017/01/wcm-tix_after-stub.png);
 }
 
-.tix-link  {
-	padding: -2px -5px !important;
-}1
+.tix-link {
+    padding: -2px -5px !important;
+}
+
+1
 /* X_camptix-att */
 
-.entry-content a, .entry-summary a, .widget a, .site-footer .widget-area a, .posts-navigation a, .widget_authors a strong{
--webkit-box-shadow:none !important;
-	box-shadow:none !important;
+.entry-content a, .entry-summary a, .widget a, .site-footer .widget-area a, .posts-navigation a, .widget_authors a strong {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
 }
+
 .entry-content {
--webkit-box-shadow:none !important;
-	box-shadow:none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
 }
-.page.page-one-column:not(.twentyseventeen-front-page) #primary{
-margin-left: auto;
-    margin-right: auto;
+
+.page.page-one-column:not(.twentyseventeen-front-page) #primary {
     max-width: 1000px;
-
+    margin-right: auto;
+    margin-left: auto;
 }
-
 
 
 /*Media Quries for mobile device*/
-@media only screen 
-  and (max-device-width: 380px){
- 
- ol.ticketterms{
-    font-size: 0.8em;
-    padding-left: 15px;
-	  }
-.wrap {
-    max-width: 380px;
-    padding: 5px;
-	  }
+
+@media only screen and (max-device-width: 380px) {
+    ol.ticketterms {
+        padding-left: 15px;
+
+        font-size: 0.8em;
+    }
+    .wrap {
+        max-width: 380px;
+        padding: 5px;
+    }
 }
 
-.widget ul li{
-    border-bottom: none;
+.widget ul li {
     border-top: none;
+    border-bottom: none;
 }
 
 .genericon {
@@ -215,91 +244,90 @@ margin-left: auto;
 /*---------------------------------
 Ticket for Mobile
 ----------------------------------*/
-@media only screen and (max-device-width: 380px){
-	table.tix_tickets_table > tbody > tr > td {
-		position: relative;
-		float: left;
-	}
-	
-	table.tix_tickets_table > tbody > tr > td.tix-column-description {
-		width: 100% !important;
-	}
-	
-	table.tix_tickets_table > tbody > tr > td.tix-column-per-ticket,
-	table.tix_tickets_table > tbody > tr > td.tix-column-price, 
-	table.tix_tickets_table > tbody > tr > td.tix-column-quantity {
-		width: 50% !important;
-		background: #efefef;
-		min-height: 60px;
-		text-align: center;
-		vertical-align: middle;
-		line-height: 45px;
-	}
-	
-	table.tix-order-summary > tbody > tr > td.tix-column-per-ticket,
-	table.tix_tickets_table > tbody > tr > td.tix-column-price {
-		border-right: 1px dotted #d54e21;
-	}
-	
-	table.tix-order-summary > tbody > tr > td.tix-column-price {
-		border-right: none;
-	}
-	
-	table.tix_tickets_table > thead,
-	table.tix_tickets_table > tbody > tr > td.tix-column-remaining {
-		display: none !important; 
-	}
-	
-	#tix-coupon-link {
-		text-decoration: none;
-		border-bottom: 1px dotted #000000;
-		color: #d54e21;
-	}
-	
-	table.tix-order-summary > tbody > tr > td.tix-column-per-ticket {
-		width: 30% !important;
-	} 
-	table.tix-order-summary > tbody > tr > td.tix-column-quantity {
-		width: 20% !important;
-	}
-	table.tix-order-summary > tbody > tr > td.tix-column-price {
-		width: 50% !important;
-	}
-	
-	table.tix-order-summary > tbody > tr.tix-row-total {
-		width: 100%;
-		background: #d54e21;
-		color: #ffffff;
-		font-weight: 800;
-	}
-	table.tix-order-summary > tbody > tr.tix-row-total > td {
-		width: 25% !important;
-		text-align: right !important;
-	}
+
+@media only screen and (max-device-width: 380px) {
+    table.tix_tickets_table>tbody>tr>td {
+        position: relative;
+
+        float: left;
+    }
+    table.tix_tickets_table>tbody>tr>td.tix-column-description {
+        width: 100% !important;
+    }
+    table.tix_tickets_table>tbody>tr>td.tix-column-per-ticket, table.tix_tickets_table>tbody>tr>td.tix-column-price, table.tix_tickets_table>tbody>tr>td.tix-column-quantity {
+        width: 50% !important;
+        min-height: 60px;
+
+        text-align: center;
+        vertical-align: middle;
+
+        background: #efefef;
+
+        line-height: 45px;
+    }
+    table.tix-order-summary>tbody>tr>td.tix-column-per-ticket, table.tix_tickets_table>tbody>tr>td.tix-column-price {
+        border-right: 1px dotted #d54e21;
+    }
+    table.tix-order-summary>tbody>tr>td.tix-column-price {
+        border-right: none;
+    }
+    table.tix_tickets_table>thead, table.tix_tickets_table>tbody>tr>td.tix-column-remaining {
+        display: none !important;
+    }
+    #tix-coupon-link {
+        text-decoration: none;
+
+        color: #d54e21;
+        border-bottom: 1px dotted #000000;
+    }
+    table.tix-order-summary>tbody>tr>td.tix-column-per-ticket {
+        width: 30% !important;
+    }
+    table.tix-order-summary>tbody>tr>td.tix-column-quantity {
+        width: 20% !important;
+    }
+    table.tix-order-summary>tbody>tr>td.tix-column-price {
+        width: 50% !important;
+    }
+    table.tix-order-summary>tbody>tr.tix-row-total {
+        width: 100%;
+
+        color: #ffffff;
+        background: #d54e21;
+
+        font-weight: 800;
+    }
+    table.tix-order-summary>tbody>tr.tix-row-total>td {
+        width: 25% !important;
+
+        text-align: right !important;
+    }
 }
+
+
 /*CSS for WooCommerce*/
-#post-6 > div > div > table.shop_table.order_details > tbody > tr > td.product-name > dl {
-display: none !important;
+
+#post-6>div>div>table.shop_table.order_details>tbody>tr>td.product-name>dl {
+    display: none !important;
 }
 
-
-
-@media screen and (min-width: 48em)
-.has-sidebar:not(.error404) #primary {
+@media screen and (min-width: 48em) .has-sidebar:not(.error404) #primary {
     float: left;
+
     width: 70%;
 }
 
-@media screen and (min-width: 48em)
-.has-sidebar #secondary {
+@media screen and (min-width: 48em) .has-sidebar #secondary {
     float: right;
-    padding-top: 0;
+
     width: 30%;
+    padding-top: 0;
     padding-left: 30px;
 }
 
 #masthead .wrap {
     position: relative;
+
     max-width: 100%;
 }
 
