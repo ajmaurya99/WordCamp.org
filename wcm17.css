@@ -193,14 +193,14 @@ body.page-two-column #comments {
     width: 5px;
     margin-right: 5px;
 
-    content: url(http://2017.mumbai.wordcamp.org/files/2017/01/wcm-tix_before-stub.png);
+    content: url(https://2017.mumbai.wordcamp.org/files/2017/01/wcm-tix_before-stub.png);
 }
 
 .tix-link::after {
     width: 15px;
     margin-left: 15px;
 
-    content: url(http://2017.mumbai.wordcamp.org/files/2017/01/wcm-tix_after-stub.png);
+    content: url(https://2017.mumbai.wordcamp.org/files/2017/01/wcm-tix_after-stub.png);
 }
 
 .tix-link {
