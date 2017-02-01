@@ -365,6 +365,15 @@ Ticket for Mobile
     max-width: 100%;
 }
 
+/* Header & Menu */
+.site-branding {
+    text-align: center;
+}
+
+ul#top-menu {
+    text-align: center;
+}
+
 /* Organizers */
 .wcorg-organizers {
     text-align: center;
