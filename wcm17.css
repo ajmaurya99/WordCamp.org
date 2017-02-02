@@ -388,10 +388,8 @@ ul#top-menu {
     padding: 10px 20px;
 }
 
-.wcorg-organizer {
-    float: left;
-    width: 32%;
-    padding: 10px 20px;
+.corg-organizer:nth-child(3n+1){
+    clear: left;
 }
 
 .wcorg-organizer img {
