@@ -1,5 +1,4 @@
 /*@media screen and (min-width: 48em)*/
-
 .entry-title,
 .page .entry-title {
     padding-left: 20px;
@@ -53,27 +52,28 @@ body.page-two-column #comments {
 }
 
 #tix-attendees li {
-    display: inline-block;
+  display: inline-block;
 
-    min-height: 330px;
-    margin: 0 0 2rem;
-    padding: 1rem .5rem;
+      min-height: 290px;
+      margin: 0 0 2rem;
+      padding-top: 1.2rem;
 
-    text-align: center;
+      text-align: center;
 
-    border-radius: 0.5rem;
-    background: #f0f0f0;
-}
+      border-bottom: 4px solid #f0f0f0;
+      background-color: rgba(0,0,0,0.02);
+    }
 
 #tix-attendees .avatar {
     display: block;
     float: none;
 
-    min-width: 75%;
+    min-width: 65%;
     height: auto;
     margin: 0 auto 1rem;
 
-    border: 10px solid #e5e5e5;
+    border: 6px solid #e5e5e5;
+    border-radius: 100px;
 }
 
 #tix-attendees .tix-field {
@@ -106,18 +106,20 @@ body.page-two-column #comments {
 
 #tix-attendees .tix-attendee-twitter,
 #tix-attendees .tix-attendee-url {
-    position: relative;
+  position: relative;
 
-    display: inline-block;
+      display: inline-block;
 
-    width: 36px;
-    height: 36px;
-    margin: .5rem .2rem;
+      width: 26px;
+      height: 26px;
+      margin: .5rem .2rem;
 
-    text-indent: -99999px;
+      text-indent: -99999px;
 
-    color: #d54e21;
-    box-shadow: none;
+      color: #d54e21;
+      border: 2px solid;
+      border-radius: 30px;
+      box-shadow: none;
 }
 
 #tix-attendees .tix-attendee-twitter:before,
@@ -126,8 +128,8 @@ body.page-two-column #comments {
     top: 0;
     right: 0;
 
-    width: 36px;
-    height: 36px;
+    width: 22px;
+    height: 26px;
 
     -webkit-transition: color .1s ease-in 0;
     transition: color .1s ease-in 0;
@@ -136,22 +138,22 @@ body.page-two-column #comments {
     text-decoration: inherit;
     text-indent: 0;
 
-    font-family: dashicons;
-    font-size: 24px;
+    font-family: FontAwesome;
+    font-size: 16px;
     font-weight: 400;
     font-style: normal;
-    line-height: 1;
+    line-height: 1.5rem;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 #tix-attendees .tix-attendee-twitter:before {
-    content: "\f301";
+    content: "\f099";
 }
 
 #tix-attendees .tix-attendee-url:before {
-    content: "\f319";
+    content: "\f0c1";
 }
 
 @media only screen and (min-width: 541px) and (max-width: 1020px) {
@@ -380,14 +382,15 @@ ul#top-menu {
 }
 
 .wcorg-organizer {
-    width: 32%;
     float: left;
+
+    width: 32%;
     padding: 10px 20px;
 }
 
 .wcorg-organizer img {
-    border-radius: 65px;
     border: 4px solid rgba(0,0,0,0.1);
+    border-radius: 65px;
 }
 
 .wcorg-organizer-description p {
