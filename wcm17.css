@@ -388,6 +388,12 @@ ul#top-menu {
     padding: 10px 20px;
 }
 
+.wcorg-organizer {
+    float: left;
+    width: 32%;
+    padding: 10px 20px;
+}
+
 .wcorg-organizer img {
     border: 4px solid rgba(0,0,0,0.1);
     border-radius: 65px;
@@ -397,6 +403,6 @@ ul#top-menu {
     text-align: justify;
 }
 
-.page-slug-organizers div.sharedaddy {
+.wcorg-organizer-description .sharedaddy {
     display: none;
 }
