@@ -5,6 +5,17 @@ h4,
 h5,
 h6 {
     font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+h1 strong, 
+h2 strong,
+h3 strong,
+h4 strong,
+h5 strong,
+h6 strong {
+    font-weight: 900;
 }
 
 
