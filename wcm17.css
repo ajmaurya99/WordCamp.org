@@ -1,4 +1,4 @@
-h1, 
+h1,
 h2,
 h3,
 h4,
@@ -8,7 +8,7 @@ h6 {
     font-weight: 700;
 }
 
-h1 strong, 
+h1 strong,
 h2 strong,
 h3 strong,
 h4 strong,
@@ -24,7 +24,7 @@ h6 {
       padding-left: 20px;
 
       border-left: 5px solid black;
-	
+
       font-size: 2.5rem;
       font-weight: 900;
     }
@@ -468,19 +468,19 @@ ul#top-menu {
 
 .wcorg-sponsor-level-gold h2 {
 	font-size: 2.75rem;
-	padding-left: 2rem; 
+	padding-left: 2rem;
 	border-left: 6px solid #FFD700;
 }
 
 .wcorg-sponsor-level-silver h2 {
 	font-size: 2rem;
-	padding-left: 2rem; 
+	padding-left: 2rem;
 	border-left: 6px solid #C0C0C0;
 }
 
 .wcorg-sponsor-level-bronze h2 {
 	font-size: 1.5rem;
-	padding-left: 2rem; 
+	padding-left: 2rem;
 	border-left: 6px solid #CD7F32;
 }
 
@@ -532,9 +532,72 @@ ul#top-menu {
 	margin: 0;
 }
 
-@media only screen and (max-width: 720px) {	
+@media only screen and (max-width: 720px) {
 	.wcorg-sponsor-level-silver .wcorg-sponsor,  .wcorg-sponsor-level-bronze .wcorg-sponsor {
 		width: 100%;
 		margin-right: 0;
 	}
+}
+
+/* Sponsor Widget */
+
+.wcb_widget_sponsors .sponsor-level {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wcb_widget_sponsors h4.sponsor-level-title {
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.wcb_widget_sponsors .sponsor-level.gold {
+    border: 1px solid #FFD700;
+}
+
+.wcb_widget_sponsors .sponsor-level.gold .sponsor-logo img {
+    width: 100%;
+}
+
+.wcb_widget_sponsors .sponsor-level.gold h4.sponsor-level-title {
+    background-color: #FFD700;
+}
+
+.wcb_widget_sponsors .sponsor-level.silver {
+    border: 1px solid #C0C0C0;
+}
+
+.wcb_widget_sponsors .sponsor-level.silver .sponsor-logo img {
+    width: 66%;
+}
+
+.wcb_widget_sponsors .sponsor-level.silver h4.sponsor-level-title {
+    background-color: #C0C0C0;
+}
+
+.wcb_widget_sponsors .sponsor-level.bronze {
+    border: 1px solid #CD7F32;
+}
+
+.wcb_widget_sponsors .sponsor-level.bronze .sponsor-logo img {
+    width: 48%;
+}
+
+.wcb_widget_sponsors .sponsor-level.bronze h4.sponsor-level-title {
+    background-color: #CD7F32;
+}
+
+.wcb_widget_sponsors .sponsor-logo {
+    padding-bottom: 10px;
+    float: left;
+}
+
+.wcb_widget_sponsors .sponsor-logo,
+.wcb_widget_sponsors .sponsor-logo img,
+.wcb_widget_sponsors .sponsor-logo a,
+.wcb_widget_sponsors .sponsor-logo a:focus,
+.wcb_widget_sponsors .sponsor-logo a:hover {
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
