@@ -406,8 +406,14 @@ ul#top-menu {
 }
 
 /* Sponors */
+.wcorg-sponsors {
+    width: 100%;
+}
+
 .wcorg-sponsor {
     float: left;
+
+    padding: 10px 20px;
 }
 
 .wcorg-sponsor-description img {
@@ -418,13 +424,14 @@ ul#top-menu {
     text-align: justify;
 }
 
+.wcorg-sponsor h3,
 .wcorg-sponsor-description .sharedaddy {
     display: none;
 }
 
 .wcorg-sponsor-level-global-gold .wcorg-sponsor,
 .wcorg-sponsor-level-gold .wcorg-sponsor {    
-    width: 48%;
+    width: 45%;
 }
 .wcorg-sponsor-level-global-gold .wcorg-sponsor:nth-child(2n+1),
 .wcorg-sponsor-level-gold .wcorg-sponsor:nth-child(2n+1) {
