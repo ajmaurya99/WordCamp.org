@@ -412,9 +412,10 @@ ul#top-menu {
 
     min-height: 290px;
     margin: 0 0 2rem;
+    padding: 1rem;
     padding-top: 1.2rem;
 
-    text-align: center;
+    text-align: justify;
 
     border-bottom: 4px solid #f0f0f0;
     background-color: rgba(0,0,0,0.02);
