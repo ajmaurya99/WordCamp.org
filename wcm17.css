@@ -404,3 +404,47 @@ ul#top-menu {
 .wcorg-organizer-description .sharedaddy {
     display: none;
 }
+
+/* Sponors */
+.wcorg-sponsor {
+    float: left;
+}
+
+.wcorg-sponsor-description img {
+    margin: auto;
+}
+
+.wcorg-sponsor-description p {
+    text-align: justify;
+}
+
+.wcorg-sponsor-description .sharedaddy {
+    display: none;
+}
+
+.wcorg-sponsor-level-global-gold .wcorg-sponsor 
+.wcorg-sponsor-level-gold .wcorg-sponsor {    
+    width: 48%;
+}
+.wcorg-sponsor-level-global-gold .wcorg-sponsor:nth-child(2n+1)
+.wcorg-sponsor-level-gold .wcorg-sponsor:nth-child(2n+1) {
+    clear: left;
+}
+
+.wcorg-sponsor-level-global-silver .wcorg-sponsor 
+.wcorg-sponsor-level-silver .wcorg-sponsor {    
+    width: 32%;
+}
+.wcorg-sponsor-level-global-silver .wcorg-sponsor:nth-child(3n+1)
+.wcorg-sponsor-level-silver .wcorg-sponsor:nth-child(3n+1) {
+    clear: left;
+}
+
+.wcorg-sponsor-level-global-bronze .wcorg-sponsor 
+.wcorg-sponsor-level-bronze .wcorg-sponsor {    
+    width: 24%;
+}
+.wcorg-sponsor-level-global-bronze .wcorg-sponsor:nth-child(4n+1)
+.wcorg-sponsor-level-bronze .wcorg-sponsor:nth-child(4n+1) {
+    clear: left;
+}
