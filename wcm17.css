@@ -175,6 +175,22 @@ body.page-two-column #comments {
     content: "\f0c1";
 }
 
+p.camptix-attendee-ticket {
+    text-align: center;
+}
+
+#tix-attendees .tix-attendee-name span.tix-first {
+    font-weight: 500;
+}
+
+#tix-attendees .tix-attendee-name {
+    clear: none;
+    margin-bottom: .5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
 @media only screen and (min-width: 541px) and (max-width: 1020px) {
     #tix-attendees .tix-columns-4 li,
     #tix-attendees ul.tix-columns-4 li:nth-child(2n+2),
