@@ -668,3 +668,35 @@ footer#colophon {
     -webkit-box-shadow: none;
     box-shadow: none;
 }
+
+/* Tickets */
+
+#tix {
+    padding: 20px;
+    background-color: rgba(0,0,0,0.02);
+    border: 4px double #c0c0c0;
+    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/extra_clean_paper.png);
+    margin-bottom: 15px;
+}
+
+thead th {
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 1em;
+}
+
+input#tix-coupon-input {
+    width: 82%;
+    float: left;
+}
+
+#tix input[type="submit"] {
+    padding: 1.2em 2.7em;
+}
+
+#tix-coupon-container input[type="submit"] {
+    padding: 1.2em 2em;
+}
+
+ol.ticketterms {
+    margin-left: 20px;
+}
