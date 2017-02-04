@@ -395,6 +395,57 @@ ul#top-menu {
     text-align: center;
 }
 
+/* Page Title */
+
+.site-content {
+    padding: 2.5em 0 0;
+}
+
+.page.page-one-column .entry-header {
+    margin-bottom: 0.5px;
+    text-align: center;
+}
+
+.page .entry-title {
+    border-bottom: 4px double black;
+    border-left: 0px;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 5px 20px;
+}
+
+/* Footer */
+
+.page .sharedaddy {
+    display: none;
+}
+
+footer#colophon {
+    text-align: center;
+}
+
+.social-navigation {
+    width: 100%;
+}
+
+.site-info {
+    width: 99%;
+}
+
+.social-navigation + .site-info {
+    margin-left: 0;
+}
+
+.social-navigation a {
+    width: 32px;
+    height: 32px;
+}
+
+.social-navigation .icon {
+    top: 8px;
+}
+
 /* Organizers */
 .wcorg-organizers {
     text-align: center;
