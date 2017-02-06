@@ -700,6 +700,6 @@ footer#colophon {
 .wcb_widget_sponsors .sponsor-logo a,
 .wcb_widget_sponsors .sponsor-logo a:focus,
 .wcb_widget_sponsors .sponsor-logo a:hover {
-    -webkit-box-shadow: none;
-    box-shadow: none;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
 }
