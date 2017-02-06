@@ -454,12 +454,15 @@ ul#top-menu {
     text-align: center;
 }
 
+body.page:not(.twentyseventeen-front-page) .entry-title{
+    font-size: 1.6rem;
+}
+
 .page .entry-title {
     border-bottom: 4px double black;
     border-left: 0px;
     display: inline-block;
     text-align: center;
-    font-size: 1.2rem;
     padding: 5px 20px;
 }
 
