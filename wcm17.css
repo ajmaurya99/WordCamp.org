@@ -268,6 +268,38 @@ p.camptix-attendee-ticket {
     margin-left: auto;
 }
 
+/* Tickets */
+
+#tix {
+    padding: 20px;
+    background-color: rgba(0,0,0,0.02);
+    border: 4px double #c0c0c0;
+    background: url(http://2017.mumbai.wordcamp.org/files/2017/02/extra_clean_paper.png);
+    margin-bottom: 15px;
+}
+
+thead th {
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 1em;
+}
+
+input#tix-coupon-input {
+    width: 82%;
+    float: left;
+}
+
+#tix input[type="submit"] {
+    padding: 1.2em 2.7em;
+}
+
+#tix-coupon-container input[type="submit"] {
+    padding: 1.2em 2em;
+}
+
+ol.ticketterms {
+    margin-left: 20px;
+}
+
 
 /*Media Quries for mobile device*/
 
@@ -422,12 +454,15 @@ ul#top-menu {
     text-align: center;
 }
 
+body.page:not(.twentyseventeen-front-page) .entry-title{
+    font-size: 1.6rem;
+}
+
 .page .entry-title {
     border-bottom: 4px double black;
     border-left: 0px;
     display: inline-block;
     text-align: center;
-    font-size: 1.2rem;
     padding: 5px 20px;
 }
 
@@ -665,38 +700,6 @@ footer#colophon {
 .wcb_widget_sponsors .sponsor-logo a,
 .wcb_widget_sponsors .sponsor-logo a:focus,
 .wcb_widget_sponsors .sponsor-logo a:hover {
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-/* Tickets */
-
-#tix {
-    padding: 20px;
-    background-color: rgba(0,0,0,0.02);
-    border: 4px double #c0c0c0;
-    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/extra_clean_paper.png);
-    margin-bottom: 15px;
-}
-
-thead th {
-    border-bottom: 1px solid #c0c0c0;
-    padding-bottom: 1em;
-}
-
-input#tix-coupon-input {
-    width: 82%;
-    float: left;
-}
-
-#tix input[type="submit"] {
-    padding: 1.2em 2.7em;
-}
-
-#tix-coupon-container input[type="submit"] {
-    padding: 1.2em 2em;
-}
-
-ol.ticketterms {
-    margin-left: 20px;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
 }
