@@ -673,6 +673,7 @@ body.single-wcb_sponsor > #page > div.single-featured-image-header > img {
 
 .wcb_widget_sponsors .sponsor-level.gold .sponsor-logo img {
     width: 100%;
+    height: auto !important;
 }
 
 .wcb_widget_sponsors .sponsor-level.gold h4.sponsor-level-title {
