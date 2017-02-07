@@ -700,6 +700,12 @@ body.single-wcb_sponsor > #page > div.single-featured-image-header > img {
     width: 80%;
 }
 
+@media only screen and (max-width: 720px) {
+    .wcb_widget_sponsors .sponsor-level.bronze .sponsor-logo img {
+        width: 48%;
+    }
+}
+
 .wcb_widget_sponsors .sponsor-level.bronze h4.sponsor-level-title {
     background-color: #CD7F32;
 }
