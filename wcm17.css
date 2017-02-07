@@ -715,4 +715,5 @@ body.single-wcb_sponsor > #page > div.single-featured-image-header > img {
 .wcb_widget_sponsors .sponsor-logo a:hover {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
+    padding: 1.25rem !important;
 }
