@@ -528,6 +528,10 @@ footer#colophon {
 
 
 /* Sponsors */
+body.single-wcb_sponsor > #page > div.single-featured-image-header > img {
+    padding: 2rem 1.25rem !important;
+}
+
 .wcorg-sponsor {
     display: inline-block;
 
@@ -642,6 +646,15 @@ footer#colophon {
 }
 
 /* Sponsor Widget */
+.wcb_widget_sponsors > div.sponsor-level > a.sponsor-logo > img {
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* msie */
+}
+
+.wcb_widget_sponsors > div.sponsor-level > a.sponsor-logo > img:hover {
+    opacity: 1;
+    filter: alpha(opacity=100); /* msie */
+}
 
 .wcb_widget_sponsors .sponsor-level {
     display: inline-block;
