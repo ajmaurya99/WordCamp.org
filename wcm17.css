@@ -17,6 +17,17 @@ h6 {
     font-weight: 900;
 }
 
+s {
+    color: #c8c8c8;
+}
+
+code {
+    font-weight: 900;
+    color: #d54e21;
+    padding: 1.2rem 1.5rem;
+    background-color: #c8c8c8; 
+    border: 1px solid #464646;
+}
 
 @media screen and (min-width: 48em) {
     .entry-title,
