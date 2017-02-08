@@ -425,7 +425,10 @@ table.shop_table.order_details>tbody>tr>td.product-name>dl {
 #field_5_7 #input_5_7_other {
     float:left;
 }
-/* x_woo */
+#post-45 > div > div > div > div.content > form > label > h2 {
+    font-size: 16px !important;
+}
+/* x_wpm.org */
 
 @media screen and (min-width: 48em) .has-sidebar:not(.error404) {
 		#primary {
