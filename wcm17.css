@@ -17,6 +17,21 @@ h6 {
     font-weight: 900;
 }
 
+s {
+    color: #c8c8c8;
+}
+
+code {
+    margin-bottom: 1.25rem;
+    padding: 1rem 1.5rem;
+	
+    font-weight: 900;
+    color: #d54e21;	
+	
+    border: 1px solid #464646;
+    border-radius: 30px;
+    background-color: #c8c8c8; 
+}
 
 @media screen and (min-width: 48em) {
     .entry-title,
@@ -528,6 +543,10 @@ footer#colophon {
 
 
 /* Sponsors */
+body.single-wcb_sponsor > #page > div.single-featured-image-header > img {
+    padding: 2rem 1.25rem !important;
+}
+
 .wcorg-sponsor {
     display: inline-block;
 
@@ -642,6 +661,15 @@ footer#colophon {
 }
 
 /* Sponsor Widget */
+.wcb_widget_sponsors > div.sponsor-level > a.sponsor-logo > img {
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* msie */
+}
+
+.wcb_widget_sponsors > div.sponsor-level > a.sponsor-logo > img:hover {
+    opacity: 1;
+    filter: alpha(opacity=100); /* msie */
+}
 
 .wcb_widget_sponsors .sponsor-level {
     display: inline-block;
@@ -660,6 +688,7 @@ footer#colophon {
 
 .wcb_widget_sponsors .sponsor-level.gold .sponsor-logo img {
     width: 100%;
+    height: auto !important;
 }
 
 .wcb_widget_sponsors .sponsor-level.gold h4.sponsor-level-title {
@@ -683,7 +712,8 @@ footer#colophon {
 }
 
 .wcb_widget_sponsors .sponsor-level.bronze .sponsor-logo img {
-    width: 48%;
+    width: 80%;
+    padding: none !important;
 }
 
 .wcb_widget_sponsors .sponsor-level.bronze h4.sponsor-level-title {
@@ -702,4 +732,5 @@ footer#colophon {
 .wcb_widget_sponsors .sponsor-logo a:hover {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
+    padding: 1.25rem !important;
 }
