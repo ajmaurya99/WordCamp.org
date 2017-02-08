@@ -23,13 +23,13 @@ s {
 
 code {
     margin-bottom: 1.25rem;
-    padding: 1rem 1.5rem;
+    padding: 0 1.15rem;
 	
     font-weight: 900;
     color: #d54e21;	
 	
     border: 1px solid #464646;
-    border-radius: 30px;
+    border-radius: 6px;
     background-color: #c8c8c8; 
 }
 
