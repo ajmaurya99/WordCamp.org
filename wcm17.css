@@ -417,11 +417,15 @@ Ticket for Mobile
     }
 }
 
-/*CSS for WooCommerce*/
-
-#post-6>div>div>table.shop_table.order_details>tbody>tr>td.product-name>dl {
+/*CSS for wpmumbai.org*/
+table.shop_table.order_details>tbody>tr>td.product-name>dl {
     display: none !important;
 }
+#field_5_7 #choice_5_7_2,
+#field_5_7 #input_5_7_other {
+    float:left;
+}
+/* x_woo */
 
 @media screen and (min-width: 48em) .has-sidebar:not(.error404) {
 		#primary {
