@@ -23,13 +23,13 @@ s {
 
 code {
     margin-bottom: 1.25rem;
-    padding: 1rem 1.5rem;
+    padding: 0 1.15rem;
 	
     font-weight: 900;
     color: #d54e21;	
 	
     border: 1px solid #464646;
-    border-radius: 30px;
+    border-radius: 6px;
     background-color: #c8c8c8; 
 }
 
@@ -417,11 +417,18 @@ Ticket for Mobile
     }
 }
 
-/*CSS for WooCommerce*/
-
-#post-6>div>div>table.shop_table.order_details>tbody>tr>td.product-name>dl {
+/*CSS for wpmumbai.org*/
+table.shop_table.order_details>tbody>tr>td.product-name>dl {
     display: none !important;
 }
+#field_5_7 #choice_5_7_2,
+#field_5_7 #input_5_7_other {
+    float:left;
+}
+#post-45 > div > div > div > div.content > form > label > h2 {
+    font-size: 16px !important;
+}
+/* x_wpm.org */
 
 @media screen and (min-width: 48em) .has-sidebar:not(.error404) {
 		#primary {
