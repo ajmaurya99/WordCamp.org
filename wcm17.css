@@ -749,10 +749,10 @@ body.single-wcb_sponsor > #page > div.single-featured-image-header > img {
 [id^=wcorg-discount] .wcorg-sponsor-description code {
     box-shadow: 0 0 0 6px #FFF59D, 2px 1px 6px 4px #ffffff;
     border: 2px dashed #d54e21;
-    background-color: #FFF59D;
+    background-color: #fcf8d9;
     padding: 0.8rem 1rem;
     border-radius: 0px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     display: block;
     text-align: center;
     margin: 0 0 20px 0;
