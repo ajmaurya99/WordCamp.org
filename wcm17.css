@@ -740,6 +740,7 @@ body.single-wcb_sponsor > #page > div.single-featured-image-header > img {
     float: left;
     border-bottom: 4px solid #f0f0f0;
     background-color: rgba(0,0,0,0.02);
+    min-height: 220px;
 }
 
 [id^=wcorg-discount] h4 {
