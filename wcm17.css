@@ -23,14 +23,14 @@ s {
 
 code {
     margin-bottom: 1.25rem;
-    padding: 0 1.15rem;
-	
+    padding: 1rem 1.5rem;
+
     font-weight: 900;
-    color: #d54e21;	
-	
+    color: #d54e21;
+
     border: 1px solid #464646;
-    border-radius: 6px;
-    background-color: #c8c8c8; 
+    border-radius: 30px;
+    background-color: #c8c8c8;
 }
 
 @media screen and (min-width: 48em) {
@@ -417,18 +417,11 @@ Ticket for Mobile
     }
 }
 
-/*CSS for wpmumbai.org*/
-table.shop_table.order_details>tbody>tr>td.product-name>dl {
+/*CSS for WooCommerce*/
+
+#post-6>div>div>table.shop_table.order_details>tbody>tr>td.product-name>dl {
     display: none !important;
 }
-#field_5_7 #choice_5_7_2,
-#field_5_7 #input_5_7_other {
-    float:left;
-}
-#post-45 > div > div > div > div.content > form > label > h2 {
-    font-size: 16px !important;
-}
-/* x_wpm.org */
 
 @media screen and (min-width: 48em) .has-sidebar:not(.error404) {
 		#primary {
@@ -741,3 +734,53 @@ body.single-wcb_sponsor > #page > div.single-featured-image-header > img {
     box-shadow: none !important;
     padding: 1.25rem !important;
 }
+
+/* Coupon */
+[id^=wcorg-discount] {
+    float: left;
+    background-color: #FFF59D;
+    border: 4px solid #FFEB3B;
+}
+
+[id^=wcorg-discount] h4 {
+    text-align: center;
+}
+
+[id^=wcorg-discount] .wcorg-sponsor-description code {
+    box-shadow: 0 0 0 6px #FFF59D, 2px 1px 6px 4px #ffffff;
+    border: 2px dashed #d54e21;
+    background-color: #FFF59D;
+    padding: 0.8rem 1rem;
+    border-radius: 0px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+[id^=wcorg-discount] .wcorg-sponsor-description code + br {
+    display: none;
+}
+
+[id^=wcorg-discount] .wcorg-sponsor-description small:first-child {
+    background-color: #d54e21;
+    color: #ffffff;
+    padding: 5px 10px;
+    display: inline;
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 11px;
+    border-radius: 5px;
+}
+
+[id^=wcorg-discount] .wcorg-sponsor-description code:before {
+    font-family: FontAwesome;
+    content: "";
+    margin-right: 10px;
+    margin-left: -15px;
+}
+
+[id^=wcorg-discount] + P {
+    display: none;
+}
+ 
