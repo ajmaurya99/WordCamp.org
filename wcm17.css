@@ -6,6 +6,7 @@ h5,
 h6 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
+	color:#000;
 }
 
 h1 strong,
@@ -14,7 +15,8 @@ h3 strong,
 h4 strong,
 h5 strong,
 h6 {
-    font-weight: 900;
+    font-weight: 700;
+	color:#000;
 }
 
 s {
