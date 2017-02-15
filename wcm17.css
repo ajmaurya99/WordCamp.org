@@ -802,3 +802,5 @@ body.single-wcb_sponsor > #page > div.single-featured-image-header > img {
     color: #d54e21;
     font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
 }
+
+.wp-caption-text { text-align:center; }
