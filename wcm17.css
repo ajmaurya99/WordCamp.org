@@ -514,32 +514,32 @@ footer#colophon {
     top: 8px;
 }
 
-/* Organizers */
-.wcorg-organizers {
+/* Organizers, Speakers */
+.wcorg-organizers, .wcorg-speakers {
     text-align: center;
 }
 
-.wcorg-organizer {
+.wcorg-organizer, .wcorg-speaker {
     float: left;
 
     width: 32%;
     padding: 10px 20px;
 }
 
-.wcorg-organizer:nth-child(3n+1){
+.wcorg-organizer:nth-child(3n+1), .wcorg-speaker:nth-child(3n+1) {
     clear: left;
 }
 
-.wcorg-organizer img {
+.wcorg-organizer img, .wcorg-speaker img {
     border: 4px solid rgba(0,0,0,0.1);
     border-radius: 65px;
 }
 
-.wcorg-organizer-description p {
+.wcorg-organizer-description p, .wcorg-speaker-description p {
     text-align: justify;
 }
 
-.wcorg-organizer-description .sharedaddy {
+.wcorg-organizer-description .sharedaddy, .wcorg-speaker-description .sharedaddy {
     display: none;
 }
 
