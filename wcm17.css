@@ -806,6 +806,7 @@ body.single-wcb_sponsor > #page > div.single-featured-image-header > img {
 }
 
 .wp-caption-text { text-align:center; }
+
 @media screen and (min-width: 67em)
 .comment-body {
     font-size: 14px;
