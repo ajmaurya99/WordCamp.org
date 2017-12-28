@@ -98,23 +98,27 @@
 .site-header {
 
 	background-color: #fff;
-
 	position: relative;
 	background-repeat: no-repeat;
 	background-position: 50% 0;
 	background-size: fixed;
-	/*background-image: url('https://2017.zagreb.wordcamp.org/files/2017/07/wordcamp-zagreb-hero-small.jpg');*/
+	/*background-image: url('add a image with resolution 1200x700 here');*/
 	transition: all .15s ease;
 }
 
 @media (min-width:48em) {
 	.site-header {
-/*		background-image: url('https://2017.zagreb.wordcamp.org/files/2017/07/wordcamp-zagreb-hero-large.jpg');*/
+/*		background-image: url('add a image with resolution 1680*653  here');*/
 		background-position: 50% 50%;
 		background-size: cover;
 	}
 }
-
+@media (min-width:1800px) {
+	.site-header {
+		/*background-image: url('add a image with resolution 1680*490  here');*/
+		background-color:#fff;
+	}
+}
 .site-header:before {
     top: 45px;
     display: block;
