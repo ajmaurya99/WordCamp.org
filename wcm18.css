@@ -449,4 +449,13 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     padding-bottom: 3rem;
 }
 
-/*CONTENT AREA ENDS*
+/*CONTENT AREA ENDS*/
+/*typography*/
+h1,h2,h3,h4 {
+	margin-bottom: 1.5rem;
+	margin-top: 0;
+	font-family: Muli, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+	font-weight: 700;
+	line-height: 1;
+	letter-spacing: -.025em;
+}
