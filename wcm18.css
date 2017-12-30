@@ -42,14 +42,14 @@
 	margin: 0;
 	font-size: 1.5625em;
 	line-height: 1;
-	font-family: 'Muli', Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+	font-family: Muli, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
 	font-weight: 700;
 	color: #000;
 }
 
 .site-title a {
 	display: block;
-	color: #000;
+	color: #fff;
 }
 
 .site-title a:active,.site-title a:focus,.site-title a:hover {
@@ -89,15 +89,15 @@
 	margin-top: .5rem;
 	font-size: 1em;
 	line-height: 1.25em;
-	font-family: 'Muli', Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+	font-family: Muli, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
 	font-weight: 400;
 	text-transform: none;
-	color:#000;
+	color:#fff;
 }
 
 .site-header {
 
-	background-color: #fff;
+	background-color:#D54E27;
 	position: relative;
 	background-repeat: no-repeat;
 	background-position: 50% 0;
@@ -106,17 +106,22 @@
 	transition: all .15s ease;
 }
 
+.site-header:hover {
+    background-color: #e5410b;
+}
+
 @media (min-width:48em) {
 	.site-header {
 /*		background-image: url('add a image with resolution 1680*653  here');*/
 		background-position: 50% 50%;
 		background-size: cover;
+		background-color:#D54E27;
 	}
 }
 @media (min-width:1800px) {
 	.site-header {
 		/*background-image: url('add a image with resolution 1680*490  here');*/
-		background-color:#fff;
+		background-color:#D54E27;
 	}
 }
 
@@ -134,7 +139,7 @@
 	width: 100%;
 	font-size: 0;
 	line-height: 24px;
-	font-family: 'Muli', Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+	font-family: Muli, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
 	font-weight: 700;
 	text-align: center;
 	letter-spacing: .05em;
@@ -237,7 +242,7 @@
 	position: relative;
 	margin: 0;
 	display: block;
-	font-family: 'Muli', Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+	font-family: Muli, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
 	font-size: 16px;
 	font-weight: 400;
 	text-align: left;
@@ -344,7 +349,7 @@
 .sub-menu .menu-item {
 	text-transform: none;
 	font-weight: 400;
-	font-family: Georgia, Cambria, Times New Roman, Times, serif;
+	font-family: Muli, Georgia, Cambria, Times New Roman, Times, serif;
 }
 
 @media (max-width:37.4375em) {
@@ -409,5 +414,5 @@
 /*BODY*/
 
 .body {
-margin:0px;
+margin:0px!important;
 }
