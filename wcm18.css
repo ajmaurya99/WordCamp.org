@@ -66,12 +66,12 @@
 	margin-bottom: 1rem;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	background-image: url('https://i0.wp.com/2017.mumbai.wordcamp.org/files/2016/12/cropped-WCMumbai_2017.png' no-repeat);
+	background-image: url('https://i0.wp.com/2017.mumbai.wordcamp.org/files/2016/12/cropped-WCMumbai_2017.png'no-repeat);
 	background-size: 100%;
 	content: "";
 }
 
-@media (min-width:48em) {
+/* @media (min-width:48em) {
 	.site-title a:before {
 		width: 208px;
 		height: 208px;
@@ -151,7 +151,7 @@ top: 45px;
     z-index: 999;
 	
 	}
-}
+}*/
 
 
 .site-header>* {
