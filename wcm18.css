@@ -416,3 +416,37 @@
 .body {
 margin:0px!important;
 }
+/*CONTENT AREA STARTS*/
+#content {
+	padding: 1.5rem 1rem;
+}
+
+@media (min-width:37.5em) {
+	#content {
+		padding: 3rem 2rem;
+	}
+}
+
+@media (min-width:48em) {
+	#content {
+		padding: 4.5rem 3rem;
+	}
+}
+
+#primary {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+	display:block;
+}
+.post {
+    position: relative;
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+}
+
+/*CONTENT AREA ENDS*
