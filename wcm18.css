@@ -461,6 +461,11 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
     margin-bottom: 3rem;
     padding-bottom: 3rem;
 }
+
+h1.entry-title {
+    border-left: 10px solid #e5410b;
+    padding-left: 10px;
+}
 .entry-meta {
     margin-bottom: 1rem;
     font-family: Muli, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
