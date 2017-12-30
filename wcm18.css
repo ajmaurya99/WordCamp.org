@@ -66,12 +66,12 @@
 	margin-bottom: 1rem;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-	background-image: url('https://i0.wp.com/2017.mumbai.wordcamp.org/files/2016/12/cropped-WCMumbai_2017.png'no-repeat);
+	background-image: url('https://i0.wp.com/2017.mumbai.wordcamp.org/files/2016/12/cropped-WCMumbai_2017.png');
 	background-size: 100%;
 	content: "";
 }
 
-/* @media (min-width:48em) {
+ @media (min-width:48em) {
 	.site-title a:before {
 		width: 208px;
 		height: 208px;
@@ -119,39 +119,7 @@
 		background-color:#fff;
 	}
 }
-/*site header diagonal cut*/
-.site-header:before {
-    top: 18px;
-    display: block;
-    left: 50%;
-    position: absolute;
-    width: calc(100% + 310px);
-    height: 480px;
-    background-color: #E5410Bd1;
-    -webkit-transform: rotate(375deg) translateX(-50%);
-    right: 0;
-    transition: all .15s ease;
-    content: "";
-    z-index: 999;
-}
 
-@media (min-width:37.5em) {
-.site-header:before {
-top: 45px;
-    display: block;
-    left: 50%;
-    position: absolute;
-    width: calc(100% + 310px);
-    height: 480px;
-    background-color: #e5410bd1;
-    -webkit-transform: rotate(397deg) translateX(-50%);
-    right: 0;
-    transition: all .15s ease;
-    content: "";
-    z-index: 999;
-	
-	}
-}*/
 
 
 .site-header>* {
