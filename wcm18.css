@@ -153,11 +153,7 @@ top: 45px;
 	}
 }
 
-@media (min-width:48em) {
-.site-header:before {
-display:none;
 
-}}
 .site-header>* {
 	position: relative;
 	z-index: 200;
