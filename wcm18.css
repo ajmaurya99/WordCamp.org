@@ -747,7 +747,7 @@ p {
 }
 
 .jetpack_subscription_widget .widget-title {
-	color: #fff;
+	color: #000;
 }
 
 .jetpack_subscription_widget p {
@@ -767,7 +767,7 @@ p {
 }
 
 .jetpack_subscription_widget input[type=submit]:active,.jetpack_subscription_widget input[type=submit]:focus,.jetpack_subscription_widget input[type=submit]:hover {
-	color: #fff;
+	color: #000;
 	background-color: #DF7D60;
 }
 
