@@ -782,8 +782,10 @@ p {
 	vertical-align: top;
 }
 
+
 @media (min-width:37.5em) {
 	.jetpack_subscription_widget #subscribe-email {
 		width: 25rem;
 	}
 }
+/*Jetpack end*/
