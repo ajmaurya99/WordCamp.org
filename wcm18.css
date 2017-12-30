@@ -789,12 +789,4 @@ p {
 	}
 }
 /*Jetpack end*/
-#after-header-widgets .widget:before, #before-content-widgets .widget:before, #secondary .widget:before {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: -1000px;
-    right: -1000px;
-    background-color: #d90e17;
-    content: "";
-}
+
