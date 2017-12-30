@@ -464,3 +464,20 @@ h1 {
 	font-size: 39 px;
 	color: #111;
 }
+
+h2 {
+	font-size: 1.95312em;
+}
+
+h2,h3 {
+	color: #000;
+}
+
+h3 {
+	font-size: 1.5625em;
+}
+
+h4 {
+	font-size: 1.25em;
+	color: #000;
+}
