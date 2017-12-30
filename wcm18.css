@@ -697,6 +697,7 @@ p {
 	position: relative;
 }
 
+/*
 #after-header-widgets .widget:before,#before-content-widgets .widget:before,#secondary .widget:before {
 	position: absolute;
 	top: 0;
@@ -706,6 +707,7 @@ p {
 	background-color: #e5410b;
 	content: "";
 }
+*/
 
 .widget-title {
     font-size: 1.25em;
