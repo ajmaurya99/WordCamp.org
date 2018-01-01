@@ -1,3 +1,6 @@
+a.skip-link.screen-reader-text {
+display:none;
+}
 /*Remove underline from all hyperlinks in page*/
 a:link    {
   /* Applies to all unvisited links */
