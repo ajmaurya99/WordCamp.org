@@ -430,7 +430,58 @@ a:active  {
 }
 /*Navgation and header ends here*/
 
+/*ORGANIZERS*/
 
+.wcorg-organizers {
+	padding-bottom: 1.5rem;
+	margin-bottom: 1.5rem;
+	border-bottom: 6px double #e7e7e7;
+}
+
+.wcorg-organizer {
+	max-width: 40em;
+	margin-bottom: 2rem;
+}
+
+.wcorg-organizer:last-child {
+	margin-bottom: 0;
+}
+
+.wcorg-organizer h2 {
+	margin-bottom: 1rem;
+	font-size: 1.25em;
+	font-family: Muli, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+}
+
+.wcorg-organizer .wcorg-organizer-description {
+	padding-left: 4rem;
+	min-height: 3rem;
+}
+
+@media (min-width:37.5em) {
+	.wcorg-organizer .wcorg-organizer-description {
+		padding-left: 6rem;
+		min-height: 5rem;
+	}
+}
+
+.wcorg-organizer p {
+	margin: 0;
+	font-size: 16px;
+}
+
+.wcorg-organizer .avatar {
+	float: left;
+	margin-left: -4rem;
+	width: 3rem;
+}
+
+@media (min-width:37.5em) {
+	.wcorg-organizer .avatar {
+		margin-left: -6rem;
+		width: 5rem;
+	}
+}
 
 /*BODY*/
 body {
