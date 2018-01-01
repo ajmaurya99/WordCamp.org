@@ -3203,7 +3203,7 @@ img.emoji,img.wp-smiley {
     bottom: 212px;
     width: 100%;
     height: 500px;
-    background: #e5410b;
+    background: #d54f27;
     -webkit-transform: skewY(192deg);
     -moz-transform: skewY(192deg);
     -ms-transform: skewY(192deg);
@@ -3221,7 +3221,7 @@ img.emoji,img.wp-smiley {
 	bottom: 0;
 	left: -1000px;
 	right: -1000px;
-	background-color: #e5410b;
+	background-color: #d54f27;
 	content: "";
 }
 
