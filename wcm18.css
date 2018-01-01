@@ -118,7 +118,7 @@ a:active  {
 
 .site-header {
 
-	background-color:#D54E27;
+	background-color:#fff;
 	position: relative;
 	background-repeat: no-repeat;
 	background-position: 50% 0;
@@ -127,22 +127,20 @@ a:active  {
 	transition: all .15s ease;
 }
 
-.site-header:hover {
-    background-color: #e5410b;
-}
+.site-header:hover {}
 
 @media (min-width:48em) {
 	.site-header {
 /*		background-image: url('add a image with resolution 1680*653  here');*/
 		background-position: 50% 50%;
 		background-size: cover;
-		background-color:#D54E27;
+		/*background-color:#D54E27;*/
 	}
 }
 @media (min-width:1800px) {
 	.site-header {
 		/*background-image: url('add a image with resolution 1680*490  here');*/
-		background-color:#D54E27;
+		/*background-color:#D54E27;*/
 	}
 }
 
