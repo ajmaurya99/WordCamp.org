@@ -1696,12 +1696,13 @@ p {
 }
 
 .jetpack_subscription_widget .widget-title {
-	color: #000;
+	color: #fff;
+	font-family: Muli, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
 }
 
 .jetpack_subscription_widget p {
 	margin: 0;
-	color: #000;
+	color: #fff;
 }
 
 .jetpack_subscription_widget input[type=email] {
@@ -1710,13 +1711,13 @@ p {
 
 .jetpack_subscription_widget input[type=submit] {
 	width: 100%;
-	color: hsla(0,0%,100%,.75);
+	color: #000;
 	text-transform: uppercase;
 	background-color: #c74419;
 }
 
 .jetpack_subscription_widget input[type=submit]:active,.jetpack_subscription_widget input[type=submit]:focus,.jetpack_subscription_widget input[type=submit]:hover {
-	color: #000;
+	color: #fff;
 	background-color: #DF7D60;
 }
 
