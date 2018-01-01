@@ -1752,3 +1752,21 @@ p {
 }
 /*Jetpack end*/
 
+	/*Diagonal Elemet in header*/
+.site-header:before {
+    display: block;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 212px;
+    width: 100%;
+    height: 500px;
+    background: #e5410b;
+    -webkit-transform: skewY(195deg);
+    -moz-transform: skewY(195deg);
+    -ms-transform: skewY(195deg);
+    -o-transform: skewY(195deg);
+    transform: skewY(195deg)rotate(0deg);
+    -webkit-backface-visibility: hidden;
+    z-index: 0;
+	}
