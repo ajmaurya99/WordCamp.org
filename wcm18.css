@@ -2595,10 +2595,26 @@ div.googlemaps iframe {
 .widget {
 	padding: 1.5rem 1rem;
 	position: relative;
-	max-width: 70%;
+	max-width: 100%;
 }
+
+@media (min-width:37.5em) {
+	.widget {
+		padding: 3rem 2rem;
+	}
+}
+
+@media (min-width:48em) {
+	.widget {
+		padding: 4.5rem 3rem;
+	}
+}
+/*TICKET_island widget*/
+/*LIST SOCIAL*/
 	
-/*Diagonal Elemet in header*/
+/*SLUG*/
+	
+	/*Diagonal Elemet in header*/
 .site-header:before {
     display: block;
     content: '';
