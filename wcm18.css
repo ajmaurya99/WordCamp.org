@@ -2343,8 +2343,260 @@ div.googlemaps iframe {
 		width: 40%;
 	}
 }
+/*SPEAKER*/
+.wcorg-speaker {
+	border-top: 1px solid #e7e7e7;
+	padding: 1.5rem 0;
+}
+
+.wcorg-speaker .wcorg-speaker-description {
+}
+
+.wcorg-speaker .wcorg-speaker-description:after,.wcorg-speaker .wcorg-speaker-description:before {
+	content: "";
+	display: table;
+}
+
+.wcorg-speaker .wcorg-speaker-description:after {
+	clear: both;
+}
+
+.wcorg-speaker .avatar {
+	float: left;
+	margin: .5rem 1rem .5rem 0;
+}
+
+.wcorg-speaker p {
+	margin-bottom: .5rem;
+	font-size: 16px;
+}
+
+.wcorg-speaker p:last-child {
+	margin-bottom: 0;
+}
+
+.wcorg-speaker h3 {
+	text-transform: none;
+}
+
+.single-wcb_speaker .entry-content {
+	font-size: 18px;
+}
+
+#session-speaker-names,#speaker-session-names {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 1.5rem;
+}
+
+#session-speaker-names li,#speaker-session-names li {
+	padding-left: 2rem;
+	background-image: url('https://2017.europe.wordcamp.org/files/2017/01/decoration-bullet-dark.png');
+	background-repeat: no-repeat;
+	background-size: 12px;
+	background-position: .5rem .5rem;
+	font-size: 1em;
+	line-height: 1.5625em;
+}	
+
+/*SPONSORS*/
+.wcorg-sponsors>div {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.wcorg-sponsors>div h2 {
+	width: 100%;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	padding-top: 1.5rem;
+	border-top: 1px solid #e7e7e7;
+	font-size: 1em;
+	line-height: 1.5625em;
+	text-align: center;
+	text-transform: uppercase;
+	color: #e5410b;
+	position: relative;
+	z-index: 100;
+}
+
+@media (min-width:48em) {
+	.wcorg-sponsors>div h2 {
+		padding-top: 0;
+		border-top: none;
+	}
 	
+	.wcorg-sponsors>div h2:after,.wcorg-sponsors>div h2:before {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 100%;
+		transform: translateX(-50%);
+		border-top: 1px solid #e7e7e7;
+		content: "";
+		z-index: -1;
+	}
 	
+	.wcorg-sponsors>div h2:after {
+		border-color: #fff;
+		width: 16em;
+		z-index: -1;
+	}
+}
+
+.wcorg-sponsor {
+	margin-bottom: 0;
+	padding: .5rem;
+	max-width: 50rem;
+	margin: 0 auto;
+}
+
+.wcorg-sponsor img {
+	display: block;
+	margin: 0 auto;
+	max-height: none;
+}
+
+.wcorg-sponsor h3 {
+	text-align: center;
+}
+
+.wcorg-sponsor .wcorg-sponsor-description,.wcorg-sponsor p {
+	color: rgba(0,0,0,.6);
+}
+
+.wcorg-sponsor p {
+	margin-bottom: .5rem;
+}
+
+.wcorg-sponsor a {
+	background-color: #fff;
+}
+
+.wcorg-sponsor a img {
+	transition: all .15s ease;
+}
+
+.wcorg-sponsor a:active img,.wcorg-sponsor a:focus img,.wcorg-sponsor a:hover img {
+	filter: grayscale(100%);
+	opacity: .75;
+}
+
+@media (min-width:48em) {
+	.wcorg-sponsor {
+		padding: 1rem;
+	}
+}
+
+.wcorg-sponsor-level-administrator,.wcorg-sponsor-level-event-after-party,.wcorg-sponsor-level-event-speakers-dinner,.wcorg-sponsor-level-super-admin {
+}
+
+.wcorg-sponsor-level-administrator:after,.wcorg-sponsor-level-administrator:before,.wcorg-sponsor-level-event-after-party:after,.wcorg-sponsor-level-event-after-party:before,.wcorg-sponsor-level-event-speakers-dinner:after,.wcorg-sponsor-level-event-speakers-dinner:before,.wcorg-sponsor-level-super-admin:after,.wcorg-sponsor-level-super-admin:before {
+	content: "";
+	display: table;
+}
+
+.wcorg-sponsor-level-administrator:after,.wcorg-sponsor-level-event-after-party:after,.wcorg-sponsor-level-event-speakers-dinner:after,.wcorg-sponsor-level-super-admin:after {
+	clear: both;
+}
+
+.wcorg-sponsor-level-administrator .wcorg-sponsor,.wcorg-sponsor-level-event-after-party .wcorg-sponsor,.wcorg-sponsor-level-event-speakers-dinner .wcorg-sponsor,.wcorg-sponsor-level-super-admin .wcorg-sponsor {
+	width: 100%;
+}
+
+@media (min-width:37.5em) {
+	.wcorg-sponsor-level-administrator .wcorg-sponsor,.wcorg-sponsor-level-event-after-party .wcorg-sponsor,.wcorg-sponsor-level-event-speakers-dinner .wcorg-sponsor,.wcorg-sponsor-level-super-admin .wcorg-sponsor {
+		width: 50%;
+	}
+}
+
+@media (min-width:48em) {
+	.wcorg-sponsor-level-administrator .wcorg-sponsor,.wcorg-sponsor-level-event-after-party .wcorg-sponsor,.wcorg-sponsor-level-event-speakers-dinner .wcorg-sponsor,.wcorg-sponsor-level-super-admin .wcorg-sponsor {
+		width: 33.33333%;
+	}
+}
+
+.wcorg-sponsor-level-author,.wcorg-sponsor-level-editor,.wcorg-sponsor-level-speakers-dinner {
+}
+
+.wcorg-sponsor-level-author:after,.wcorg-sponsor-level-author:before,.wcorg-sponsor-level-editor:after,.wcorg-sponsor-level-editor:before,.wcorg-sponsor-level-speakers-dinner:after,.wcorg-sponsor-level-speakers-dinner:before {
+	content: "";
+	display: table;
+}
+
+.wcorg-sponsor-level-author:after,.wcorg-sponsor-level-editor:after,.wcorg-sponsor-level-speakers-dinner:after {
+	clear: both;
+}
+
+.wcorg-sponsor-level-author .wcorg-sponsor,.wcorg-sponsor-level-editor .wcorg-sponsor,.wcorg-sponsor-level-speakers-dinner .wcorg-sponsor {
+	width: 50%;
+}
+
+@media (min-width:48em) {
+	.wcorg-sponsor-level-author .wcorg-sponsor,.wcorg-sponsor-level-editor .wcorg-sponsor,.wcorg-sponsor-level-speakers-dinner .wcorg-sponsor {
+		width: 25%;
+	}
+}
+
+.wcorg-sponsor-level-small-business,.wcorg-sponsor-level-subscriber {
+}
+
+.wcorg-sponsor-level-small-business:after,.wcorg-sponsor-level-small-business:before,.wcorg-sponsor-level-subscriber:after,.wcorg-sponsor-level-subscriber:before {
+	content: "";
+	display: table;
+}
+
+.wcorg-sponsor-level-small-business:after,.wcorg-sponsor-level-subscriber:after {
+	clear: both;
+}
+
+.wcorg-sponsor-level-small-business .wcorg-sponsor,.wcorg-sponsor-level-subscriber .wcorg-sponsor {
+	width: 33.33333%;
+}
+
+@media (min-width:48em) {
+	.wcorg-sponsor-level-small-business .wcorg-sponsor,.wcorg-sponsor-level-subscriber .wcorg-sponsor {
+		width: 20%;
+	}
+}
+
+.wcorg-sponsor-level-microsponsor {
+}
+
+.wcorg-sponsor-level-microsponsor:after,.wcorg-sponsor-level-microsponsor:before {
+	content: "";
+	display: table;
+}
+
+.wcorg-sponsor-level-microsponsor:after {
+	clear: both;
+}
+
+.wcorg-sponsor-level-microsponsor .wcorg-sponsor {
+	width: 33.33333%;
+}
+
+@media (min-width:48em) {
+	.wcorg-sponsor-level-microsponsor .wcorg-sponsor {
+		width: 16.66667%;
+	}
+}
+
+.wcorg-sponsor-level-community-summit-bronze,.wcorg-sponsor-level-community-summit-gold,.wcorg-sponsor-level-community-summit-individual,.wcorg-sponsor-level-community-summit-silver {
+	display: none !important;
+}
+
+/*WIDGET*/
+.widget {
+	padding: 1.5rem 1rem;
+	position: relative;
+	max-width: 50rem;
+}
 	
 /*Diagonal Elemet in header*/
 .site-header:before {
