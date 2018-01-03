@@ -3274,5 +3274,15 @@ img.emoji,img.wp-smiley {
 	background-color: #d54f27;
 	content: "";
 }
+@media screen and (max-width: 400px) {
+    #content {
+    		padding: 1.5rem 2rem;
+    	}
+}
 
+@media screen and (min-width: 401px) and (max-width: 720px) {
+    #content {
+    		padding: 1.5rem 2rem;
+    	}
+}
 
