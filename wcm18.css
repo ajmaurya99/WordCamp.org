@@ -3308,6 +3308,6 @@ img.emoji, img.wp-smiley {
 
 @media screen and (max-width: 720px) {
 	#primary {
-		max-width: 100%;
+		max-width: 95%;
 	}
 }
