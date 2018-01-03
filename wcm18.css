@@ -3214,6 +3214,55 @@ img.emoji,img.wp-smiley {
     z-index: 0;
 	}
 	
+@media screen and (min-width: 1921px) {
+.site-header:before {
+    -webkit-transform: skewY(188deg);
+    -moz-transform: skewY(188deg);
+    -ms-transform: skewY(188deg);
+    -o-transform: skewY(188deg);
+    transform: skewY(188deg)rotate(0deg);
+}
+}
+
+@media screen and (min-width:1441px) {
+	.site-header:before {
+		transform: skewY(194deg)rotate(0deg);
+		-webkit-transform: skewY(194deg);
+    	-moz-transform: skewY(194deg);
+    	-ms-transform: skewY(194deg);
+    	-o-transform: skewY(194deg);
+	}
+}
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+    .site-header:before {
+    	transform: skewY(196deg)rotate(0deg);
+    	-webkit-transform: skewY(196deg);
+    	-moz-transform: skewY(196deg);
+    	-ms-transform: skewY(196deg);
+    	-o-transform: skewY(196deg);
+
+    }
+}
+@media screen and (min-width: 721px) and (max-width: 1280px) {
+    .site-header:before {
+    	transform: skewY(204deg)rotate(0deg);
+    	-webkit-transform: skewY(204deg);
+    	-moz-transform: skewY(204deg);
+    	-ms-transform: skewY(204deg);
+    	-o-transform: skewY(204deg);
+
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 720px) {
+    .site-header:before {
+    	transform: skewY(218deg)rotate(0deg);
+    	-webkit-transform: skewY(218deg);
+    	-moz-transform: skewY(218deg);
+    	-ms-transform: skewY(218deg);
+    	-o-transform: skewY(218deg);
+    }
+}
 /*WIdget Background*/
 
 #after-header-widgets .widget:before,#before-content-widgets .widget:before,#secondary .widget:before {
