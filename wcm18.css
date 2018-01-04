@@ -3307,3 +3307,10 @@ img.emoji, img.wp-smiley {
 		padding: 1.5rem 2rem;
 	}
 }
+
+
+@media screen and (max-width: 720px) {
+	#primary {
+		max-width: 95%;
+	}
+}
