@@ -3314,3 +3314,22 @@ img.emoji, img.wp-smiley {
 		max-width: 95%;
 	}
 }
+
+/*Changes according to PSD*/
+.main-navigation {
+	background-color: #fff;
+	border-top: 2px solid #e1e1e1;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.menu-item{
+	font-weight: 700;
+}
+.menu-item a.focus, .menu-item a:active, .menu-item a:focus, .menu-item a:hover{
+	text-decoration: none;
+}
+.site-title a{
+	text-align: left;
+}
+.site-description {
+	text-align: left;
+}
