@@ -61,6 +61,7 @@ a:active {
 }
 
 .site-title {
+	letter-spacing: -.025em;
 	margin: 0;
 	font-size: 1.5625em;
 	line-height: 1;
