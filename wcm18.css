@@ -192,7 +192,7 @@ a:active {
 	top: -.125rem;
 	border: .375rem solid transparent;
 	margin-left: .5rem;
-	border-top-color: #d90e17;
+	border-top-color: #e5410b;
 	content: "";
 }
 
@@ -1082,7 +1082,7 @@ blockquote {
 	margin-bottom: 1.5rem;
 	padding: 0;
 	padding-left: 1.5rem;
-	border-left: .1875rem solid #d90e17;
+	border-left: .1875rem solid #e5410b;
 }
 
 blockquote p {
