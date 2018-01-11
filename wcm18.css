@@ -3333,3 +3333,6 @@ img.emoji, img.wp-smiley {
 .site-description {
 	text-align: left;
 }
+footer.entry-footer {
+    display: none;
+}
