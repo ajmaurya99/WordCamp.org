@@ -3336,3 +3336,4 @@ img.emoji, img.wp-smiley {
 footer.entry-footer {
     display: none;
 }
+.call2action { background-color: #e7e7e7; border-radius: .1875rem; padding: 10px 20px; font-weight: bold; }
