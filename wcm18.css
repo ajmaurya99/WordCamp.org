@@ -3334,3 +3334,24 @@ footer.entry-footer {
     display: none;
 }
 .call2action { background-color: #e7e7e7; border-radius: .1875rem; padding: 10px 20px; font-weight: bold; }
+
+/* Ajay css added - 13th Jan */
+header.entry-header{
+border-left: 10px solid #d54f27;
+    padding-left: 20px;
+}
+h2.entry-title a{
+    color: #000;
+    text-decoration: none;
+    font-size: 25px;
+}
+.entry-content{
+padding-top:15px;
+}
+.entry-content, 
+.entry-content p{
+text-align:justify
+}
+.entry-content h2{
+font-size:23px
+}
