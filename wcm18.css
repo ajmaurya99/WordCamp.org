@@ -3334,3 +3334,12 @@ footer.entry-footer {
     display: none;
 }
 .call2action { background-color: #e7e7e7; border-radius: .1875rem; padding: 10px 20px; font-weight: bold; }
+/*AJ Mourya*/
+.sub-menu{
+    background-color: #de4f20;
+}
+.sub-menu a{
+    text-decoration: none;
+	width:100%;
+	display:block;
+}
