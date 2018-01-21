@@ -424,3 +424,52 @@ blockquote > p {
         font-size: 1.1rem;
     }
 }
+/*Jetpack start*/
+.jetpack_subscription_widget {
+	text-align: center;
+}
+
+.jetpack_subscription_widget .widget-title {
+	color: #fff;
+	font-family: Muli, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+}
+
+.jetpack_subscription_widget p {
+	margin: 0;
+	color: #fff;
+}
+
+.jetpack_subscription_widget input[type=email] {
+	width: 100% !important;
+}
+
+.jetpack_subscription_widget input[type=submit] {
+	width: 100%;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #c74419;
+}
+
+.jetpack_subscription_widget input[type=submit]:active, .jetpack_subscription_widget input[type=submit]:focus, .jetpack_subscription_widget input[type=submit]:hover {
+	color: #fff;
+	background-color: #DF7D60;
+}
+
+.jetpack_subscription_widget #subscribe-text {
+	margin-bottom: 1.5rem;
+}
+
+.jetpack_subscription_widget #subscribe-email, .jetpack_subscription_widget #subscribe-submit {
+	display: inline-block;
+	width: 12.5rem;
+	margin: .25rem;
+	vertical-align: top;
+}
+
+@media (min-width: 37.5em) {
+	.jetpack_subscription_widget #subscribe-email {
+		width: 25rem;
+	}
+}
+
+/*Jetpack end*/
