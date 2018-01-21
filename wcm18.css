@@ -38,7 +38,7 @@ a:hover, .comment-edit-link:hover, .edit-link > a:hover {
 }
 
 .custom-header-media {
-    background: transparent url(http://meramumbai.wordcamp.test/wp-content/uploads/sites/48/2018/01/gateway_image.png) no-repeat top right;
+    background: transparent url(https://2018.mumbai.wordcamp.org/files/2018/01/gateway_image.png) no-repeat top right;
     height: 325px;
     position: absolute;
     width: 100%;
@@ -94,7 +94,7 @@ a:hover, .comment-edit-link:hover, .edit-link > a:hover {
 
 .site-title a {
     background-size: 100% !important;
-    background: transparent url(http://meramumbai.wordcamp.test/wp-content/uploads/sites/48/2018/01/logo.png) center center;
+    background: transparent url(https://2018.mumbai.wordcamp.org/files/2018/01/logo.png) center center;
     display: block;
     height: 150px;
     margin: 4% 1.5% 0 1.5%;
