@@ -425,6 +425,9 @@ blockquote > p {
 /*Jetpack start*/
 .jetpack_subscription_widget {
 	text-align: center;
+	background-color: #ec4e20;
+   	 padding-top: 10px;
+   	 padding-bottom: 10px;
 }
 
 .jetpack_subscription_widget .widget-title {
