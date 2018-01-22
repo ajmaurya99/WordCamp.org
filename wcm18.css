@@ -521,3 +521,15 @@ blockquote > p {
 	background-color: #c74419;
 }
 /*site-info generator*/
+
+/* Blockquote Design Fixed start */
+blockquote::before{
+	font-size: 3rem;
+    line-height: 100%;
+}
+blockquote > p:nth-child(1){
+margin: -30px auto auto 20px;
+    line-height: 130%;
+}
+/* Blockquote Design Fixed end */
+
