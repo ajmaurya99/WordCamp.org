@@ -144,9 +144,9 @@ a:hover, .comment-edit-link:hover, .edit-link > a:hover {
         -ms-transform: skewY(10deg);
         -o-transform: skewY(10deg);
         -webkit-transform: skewY(10deg);
-        height: 98vh;
+        height: 36vh;
         transform: skewY(10deg);
-        top: -105px;
+        
     }
 
     .menu-toggle {
