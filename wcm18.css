@@ -315,6 +315,7 @@ blockquote::before {
 blockquote > p {
     font-size: 1.5rem;
     margin: -40px auto auto 20px;
+    line-height: 1.2;
 }
 
 .entry-footer {
@@ -371,7 +372,7 @@ blockquote > p {
 }
 
 .content-area {
-    border-bottom: 5px solid #e5410b;
+    /* border-bottom: 5px solid #e5410b; */
     margin: auto;
     width: 960px;
 }
