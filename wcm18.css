@@ -533,3 +533,11 @@ margin: -30px auto auto 20px;
 }
 /* Blockquote Design Fixed end */
 
+/* dropdown menu design fixed */
+ul.sub-menu{
+	background: #fff;
+}
+ul.sub-menu > li{
+padding: 5px 10px;
+}
+/* dropdown menu design fixed */
