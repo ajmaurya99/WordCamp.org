@@ -548,14 +548,14 @@ border: 1px solid #666;
 padding: 10px;
 }
 
-input[type=submit] {
-	font-size: 1.5em;
+#tix input[type=submit] {
+	font-size: 1.2em;
 	color: #fff;
 	text-transform: uppercase;
 	background-color: #c74419;
 }
 
-input[type=submit]:active, input[type=submit]:focus, input[type=submit]:hover {
+#tix input[type=submit]:active, #tix input[type=submit]:focus, #tix input[type=submit]:hover {
 	color: #fff;
 	background-color: #DF7D60;
 }
