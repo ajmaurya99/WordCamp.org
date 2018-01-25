@@ -549,7 +549,7 @@ padding: 10px;
 }
 
 input[type=submit] {
-	width: 100%;
+	font-size: 1.5em;
 	color: #fff;
 	text-transform: uppercase;
 	background-color: #c74419;
