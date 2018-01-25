@@ -541,3 +541,9 @@ ul.sub-menu > li{
 padding: 5px 10px;
 }
 /* dropdown menu design fixed */
+
+/* Tickets table */
+.tix_tickets_table td, .tix_tickets_table thead th{
+border: 1px solid #666;
+padding: 10px;
+}
