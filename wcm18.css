@@ -542,8 +542,20 @@ padding: 5px 10px;
 }
 /* dropdown menu design fixed */
 
-/* Tickets table */
+/* Tickets page */
 .tix_tickets_table td, .tix_tickets_table thead th{
 border: 1px solid #666;
 padding: 10px;
+}
+
+input[type=submit] {
+	width: 100%;
+	color: #fff;
+	text-transform: uppercase;
+	background-color: #c74419;
+}
+
+input[type=submit]:active, input[type=submit]:focus, input[type=submit]:hover {
+	color: #fff;
+	background-color: #DF7D60;
 }
