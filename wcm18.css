@@ -561,157 +561,126 @@ padding: 10px;
 }
 
 /* Camptix - Attendee */
-
-#tix-attendees .tix-columns-4 li {
-    width: 23%;
-    margin-right: 2%;
+.tix-attendee-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-#tix-attendees ul.tix-columns-4 li:nth-child(4n+4) {
-    margin-right: 0;
+#tix-attendees .tix-columns-3 li {
+    width: 100%;
+}
+
+@media (min-width: 37.5em) {
+    #tix-attendees .tix-columns-3 li {
+        width: 50%;
+    }
+
+    #tix-attendees .tix-columns-3 li:nth-child(odd) {
+        clear: left;
+    }
+}
+
+@media (min-width: 62em) {
+    #tix-attendees .tix-columns-3 li {
+        width: 33.33333%;
+    }
+
+    #tix-attendees .tix-columns-3 li:nth-child(odd) {
+        clear: none;
+    }
+
+    #tix-attendees .tix-columns-3 li:nth-child(3n+1) {
+        clear: left;
+    }
+}
+
+#tix-attendees {
+}
+
+#tix-attendees:after, #tix-attendees:before {
+    content: "";
+    display: table;
+}
+
+#tix-attendees:after {
+    clear: both;
 }
 
 #tix-attendees li {
-    display: inline-block;
-
-    min-height: 290px;
-    margin: 0 0 2rem;
-    padding-top: 1.2rem;
-
-    text-align: center;
-
-    border-bottom: 4px solid #f0f0f0;
-    background-color: rgba(0,0,0,0.02);
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    height: auto;
+    min-height: 3rem;
+    padding-left: 4rem;
+    padding-right: .5rem;
+    font-size: .8em;
+    line-height: 1.25em;
+    text-align: left;
 }
 
 #tix-attendees .avatar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    border: .125rem solid #e5410b;
+    background-color: #fff;
+    transition: all .15s ease;
+}
+
+#tix-attendees a {
     display: block;
-    float: none;
-
-    min-width: 65%;
-    height: auto;
-    margin: 0 auto 1rem;
-
-    border: 6px solid #e5e5e5;
-    border-radius: 100px;
 }
 
 #tix-attendees .tix-field {
-    display: block;
-
-    margin-left: 0;
+    display: inline-block;
+    margin: 0;
+    margin-right: .5rem;
+    font-size: 14px;
+    line-height: 1.5625em;
+    vertical-align: middle;
 }
 
 #tix-attendees .tix-attendee-name {
-    clear: none;
-
-    margin-bottom: .5rem;
-
-    text-align: center;
-
-    font-size: 1.4rem;
-    line-height: 1.4;
-}
-
-#tix-attendees .tix-attendee-name span.tix-first {
+    display: block;
+    padding-right: 0;
+    margin-right: 0;
+    margin-bottom: .125rem;
+    font-family: Muli, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+    color: #000;
     font-weight: 700;
+    font-size: 18px;
+    line-height: 1.25em;
+    background: none;
 }
 
-#tix-attendees .tix-attendee-name span.tix-last {
-    display: block;
-
-    font-size: .7em;
-    line-height: 1;
+#tix-attendees li:hover .avatar {
+    transform: scale(1.1);
 }
 
-#tix-attendees .tix-attendee-twitter,
 #tix-attendees .tix-attendee-url {
-  position: relative;
-
-      display: inline-block;
-
-      width: 26px;
-      height: 26px;
-      margin: .5rem .2rem;
-
-      text-indent: -99999px;
-
-      color: #d54e21;
-      border: 2px solid;
-      border-radius: 30px;
-      box-shadow: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 11.25rem;
 }
 
-#tix-attendees .tix-attendee-twitter:before,
-#tix-attendees .tix-attendee-url:before {
-    position: absolute;
-    top: 0;
-    right: 0;
-
-    width: 22px;
-    height: 26px;
-
-    -webkit-transition: color .1s ease-in 0;
-    transition: color .1s ease-in 0;
-    text-align: center;
-    vertical-align: top;
-    text-decoration: inherit;
-    text-indent: 0;
-
-    font-family: FontAwesome;
-    font-size: 16px;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 1.5rem;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+#tix-attendees .tix-attendee-twitter:after {
+    display: inline-block;
+    width: .875rem;
+    height: .875rem;
+    margin-left: .5rem;
+    vertical-align: middle;
+    
+    background-size: 14px;
+    opacity: .5;
 }
 
-#tix-attendees .tix-attendee-twitter:before {
-    content: "\f099";
-}
-
-#tix-attendees .tix-attendee-url:before {
-    content: "\f0c1";
-}
-
-p.camptix-attendee-ticket {
-    text-align: center;
-}
-
-#tix-attendees .tix-attendee-name span.tix-first {
-    font-weight: 500;
-}
-
-#tix-attendees .tix-attendee-name {
-    clear: none;
-    margin-bottom: .5rem;
-    text-align: center;
-    font-size: 1.2rem;
-    line-height: 1.4;
-}
-
-@media only screen and (min-width: 541px) and (max-width: 1020px) {
-    #tix-attendees .tix-columns-4 li,
-    #tix-attendees ul.tix-columns-4 li:nth-child(2n+2),
-    #tix-attendees ul.tix-columns-4 li:nth-child(4n+4) {
-        width: 31%;
-        margin-right: 2%;
-    }
-
-    #tix-attendees ul.tix-columns-4 li:nth-child(3n+3) {
-        margin-right: 0;
-    }
-}
-
-@media only screen and (max-width: 540px) {
-    #tix-attendees .tix-columns-4 li {
-        width: 49%;
-        margin-right: 2%;
-    }
-
-    #tix-attendees ul.tix-columns-4 li:nth-child(2n+2) {
-        margin-right: 0;
-    }
+#tix-attendees .tix-attendee-twitter:last-child:after {
+    display: none;
 }
