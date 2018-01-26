@@ -628,7 +628,7 @@ padding: 10px;
     margin: 0;
     width: 3rem;
     height: 3rem;
-    border: .125rem solid #e5410b;
+    border-radius:50%;
     background-color: #fff;
     transition: all .15s ease;
 }
