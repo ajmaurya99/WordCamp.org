@@ -773,10 +773,6 @@ background-image: url(https://2018.mumbai.wordcamp.org/files/2018/01/twitter_org
 	}
 }
 
-/* Remove Horizontal Scroll Bar */
-header{
-overflow:hidden !important;
-}
 
 /* Deskptop Menus Design Fixed*/
 .page-navigation-container ul ul{
