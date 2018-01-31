@@ -774,10 +774,7 @@ background-image: url(https://2018.mumbai.wordcamp.org/files/2018/01/twitter_org
 }
 
 
-/* Deskptop Menus Design Fixed*/
-.page-navigation-container ul ul{
-top: 2.4em;
-}
+
 /* Mobile Designs */
 @media screen and (max-width: 768px) {
 .page-navigation-container ul ul{
